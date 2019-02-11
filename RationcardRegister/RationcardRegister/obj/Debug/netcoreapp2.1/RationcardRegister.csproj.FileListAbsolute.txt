@@ -40,3 +40,8 @@ D:\OneDrive\Websites\rationcardregister.com\RationcardRegister\RationcardRegiste
 D:\OneDrive\Websites\rationcardregister.com\RationcardRegister\RationcardRegister\RationcardRegister\obj\Debug\netcoreapp2.1\RationcardRegister.csproj.CopyComplete
 D:\OneDrive\Websites\rationcardregister.com\RationcardRegister\RationcardRegister\RationcardRegister\obj\Debug\netcoreapp2.1\RationcardRegister.dll
 D:\OneDrive\Websites\rationcardregister.com\RationcardRegister\RationcardRegister\RationcardRegister\obj\Debug\netcoreapp2.1\RationcardRegister.pdb
+D:\OneDrive\Websites\rationcardregister.com\RationcardRegister\RationcardRegister\RationcardRegister\obj\Debug\netcoreapp2.1\Razor\Views\Home\BrowserInfo.g.cshtml.cs
+D:\OneDrive\Websites\rationcardregister.com\RationcardRegister\RationcardRegister\RationcardRegister\obj\Debug\netcoreapp2.1\Razor\Views\Home\Geolocation.g.cshtml.cs
+D:\OneDrive\Websites\rationcardregister.com\RationcardRegister\RationcardRegister\RationcardRegister\obj\Debug\netcoreapp2.1\Razor\Views\Home\Login.g.cshtml.cs
+D:\OneDrive\Websites\rationcardregister.com\RationcardRegister\RationcardRegister\RationcardRegister\obj\Debug\netcoreapp2.1\Razor\Views\Home\NetworkInfo.g.cshtml.cs
+D:\OneDrive\Websites\rationcardregister.com\RationcardRegister\RationcardRegister\RationcardRegister\obj\Debug\netcoreapp2.1\Razor\Views\Home\Geolocation_Client.g.cshtml.cs

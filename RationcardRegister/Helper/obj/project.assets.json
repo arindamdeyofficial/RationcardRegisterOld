@@ -287,6 +287,20 @@
           "lib/netstandard2.0/Microsoft.AspNetCore.HttpOverrides.dll": {}
         }
       },
+      "Microsoft.AspNetCore.NodeServices/2.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Hosting.Abstractions": "2.1.1",
+          "Microsoft.Extensions.Logging.Console": "2.1.1",
+          "Newtonsoft.Json": "11.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.NodeServices.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.NodeServices.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.Routing/2.1.1": {
         "type": "package",
         "dependencies": {
@@ -1027,6 +1041,9 @@
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
+      },
+      "Node.js.redist/10.6.0": {
+        "type": "package"
       },
       "runtime.native.System/4.3.0": {
         "type": "package",
@@ -2756,6 +2773,18 @@
         "microsoft.aspnetcore.httpoverrides.nuspec"
       ]
     },
+    "Microsoft.AspNetCore.NodeServices/2.1.1": {
+      "sha512": "/9VSehGhQMV8tz+ddKl6jt8IorFlGGtc/7kEDyfcGWGgsE8WswlfszIRxGMa4BWrhaWovQVteshQCyBBqEG6/g==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.nodeservices/2.1.1",
+      "files": [
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.AspNetCore.NodeServices.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.NodeServices.xml",
+        "microsoft.aspnetcore.nodeservices.2.1.1.nupkg.sha512",
+        "microsoft.aspnetcore.nodeservices.nuspec"
+      ]
+    },
     "Microsoft.AspNetCore.Routing/2.1.1": {
       "sha512": "BnVEKMGIkRcZecG3zR+tl9tYGkViz1k/WzYVNRfdaAN0LeuSabNP0NlG037oz+pDPsLzzNkFeLSOh/w0AKLaig==",
       "type": "package",
@@ -3770,6 +3799,19 @@
         "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
         "newtonsoft.json.11.0.2.nupkg.sha512",
         "newtonsoft.json.nuspec"
+      ]
+    },
+    "Node.js.redist/10.6.0": {
+      "sha512": "d2e+8JeM6yJaciinPVNjBYgQycumeyfvlJ/VDvzdMSwOji1WWMAAaFt6m252xr4FkHECA07f88sriq6cgVU4WA==",
+      "type": "package",
+      "path": "node.js.redist/10.6.0",
+      "files": [
+        "node.js.redist.10.6.0.nupkg.sha512",
+        "node.js.redist.nuspec",
+        "tools/linux-x64/node",
+        "tools/osx-x64/node",
+        "tools/win-x64/node.exe",
+        "tools/win-x86/node.exe"
       ]
     },
     "runtime.native.System/4.3.0": {
@@ -7632,8 +7674,10 @@
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 5.0.1",
       "BusinessObjects >= 1.0.0",
       "Microsoft.AspNetCore >= 2.1.4",
+      "Microsoft.AspNetCore.NodeServices >= 2.1.1",
       "Microsoft.NETCore.App >= 2.1.0",
       "MongoDB.Driver >= 2.7.0",
+      "Node.js.redist >= 10.6.0",
       "Serilog >= 2.7.1",
       "Serilog.Sinks.File >= 4.0.0",
       "Serilog.Sinks.MongoDB >= 3.1.0",
@@ -7700,6 +7744,10 @@
             "target": "Package",
             "version": "[2.1.4, )"
           },
+          "Microsoft.AspNetCore.NodeServices": {
+            "target": "Package",
+            "version": "[2.1.1, )"
+          },
           "Microsoft.NETCore.App": {
             "suppressParent": "All",
             "target": "Package",
@@ -7709,6 +7757,10 @@
           "MongoDB.Driver": {
             "target": "Package",
             "version": "[2.7.0, )"
+          },
+          "Node.js.redist": {
+            "target": "Package",
+            "version": "[10.6.0, )"
           },
           "Serilog": {
             "target": "Package",

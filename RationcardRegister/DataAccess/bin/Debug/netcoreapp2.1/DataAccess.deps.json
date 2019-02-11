@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.1",
-    "signature": "3dd0accc1d4de3d5a8136b662cac2152d66fd651"
+    "signature": "9aea73e3d83b75563972dd6c8be765eb809891f4"
   },
   "compilationOptions": {},
   "targets": {
@@ -277,6 +277,19 @@
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.AspNetCore.HttpOverrides.dll": {
+            "assemblyVersion": "2.1.1.0",
+            "fileVersion": "2.1.1.18157"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.NodeServices/2.1.1": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Hosting.Abstractions": "2.1.1",
+          "Microsoft.Extensions.Logging.Console": "2.1.1",
+          "Newtonsoft.Json": "11.0.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.NodeServices.dll": {
             "assemblyVersion": "2.1.1.0",
             "fileVersion": "2.1.1.18157"
           }
@@ -760,6 +773,7 @@
           }
         }
       },
+      "Node.js.redist/10.6.0": {},
       "runtime.native.System/4.3.0": {},
       "runtime.native.System.Data.SqlClient.sni/4.4.0": {
         "dependencies": {
@@ -1770,7 +1784,9 @@
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "5.0.1",
           "BusinessObjects": "1.0.0",
           "Microsoft.AspNetCore": "2.1.4",
+          "Microsoft.AspNetCore.NodeServices": "2.1.1",
           "MongoDB.Driver": "2.7.0",
+          "Node.js.redist": "10.6.0",
           "Serilog": "2.7.1",
           "Serilog.Sinks.File": "4.0.0",
           "Serilog.Sinks.MongoDB": "3.1.0",
@@ -1916,6 +1932,13 @@
       "sha512": "sha512-BiIpB0HjMUq1nc45ss4N9A4KbxUgyBWemXEdA5Iv1VQZDy3gUI/eR3+Ist9Oo1ATA7LxXgJ++LGSrCVN2UWYNg==",
       "path": "microsoft.aspnetcore.httpoverrides/2.1.1",
       "hashPath": "microsoft.aspnetcore.httpoverrides.2.1.1.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.NodeServices/2.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/9VSehGhQMV8tz+ddKl6jt8IorFlGGtc/7kEDyfcGWGgsE8WswlfszIRxGMa4BWrhaWovQVteshQCyBBqEG6/g==",
+      "path": "microsoft.aspnetcore.nodeservices/2.1.1",
+      "hashPath": "microsoft.aspnetcore.nodeservices.2.1.1.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Routing/2.1.1": {
       "type": "package",
@@ -2189,6 +2212,13 @@
       "sha512": "sha512-IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ==",
       "path": "newtonsoft.json/11.0.2",
       "hashPath": "newtonsoft.json.11.0.2.nupkg.sha512"
+    },
+    "Node.js.redist/10.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-d2e+8JeM6yJaciinPVNjBYgQycumeyfvlJ/VDvzdMSwOji1WWMAAaFt6m252xr4FkHECA07f88sriq6cgVU4WA==",
+      "path": "node.js.redist/10.6.0",
+      "hashPath": "node.js.redist.10.6.0.nupkg.sha512"
     },
     "runtime.native.System/4.3.0": {
       "type": "package",

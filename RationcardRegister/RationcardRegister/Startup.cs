@@ -29,9 +29,8 @@ namespace RationcardRegister
         {
             services.AddDataProtection();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
-
-            ConnectionManager._configuration = Configuration;
-            ConnectionManager._connStr = SecurityEncrypt.Decrypt(Configuration.GetConnectionString("DefaultConnection"), "nakshal");
+            // Enable Node Services
+            services.AddNodeServices();
 
             //private IHttpContextAccessor _accessor;
             //public SomeController(IHttpContextAccessor accessor)
@@ -63,9 +62,11 @@ namespace RationcardRegister
             }
             //MongoDbHelper.InsertUser(new User { UserName = "biplabhome", Password = "password" });
             //var d = MongoDbHelper.FindUserByUserName("biplabhome");
-            
+
+            ConnectionManager c = new ConnectionManager(accessor, Configuration);
+
             app.AppMiddleWare();
-            app.UseHttpsRedirection();
+            app.UseHttpsRedirection();            
             app.UseStaticFiles();
             app.UseCookiePolicy();
             //app.UseStaticFiles(new StaticFileOptions

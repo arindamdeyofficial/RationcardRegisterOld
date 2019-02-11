@@ -16,7 +16,7 @@ namespace Helper
                         , outputTemplate: Environment.NewLine 
                                 + "{Timestamp:yyyy-MM-dd HH:mm:ss.fff zzz} [{Level}] ({ThreadId}) {Message}{NewLine}{Exception}"
                         , rollingInterval: RollingInterval.Day)
-                    .WriteTo.MongoDB("mongodb://localhost:27017/SelfSerPortalDb", period: TimeSpan.Zero)
+                    .WriteTo.MongoDB("mongodb+srv://logUser:Nakshal!01051987@azuremongobiplabhomecloud-0ncjk.azure.mongodb.net/test?retryWrites=true", period: TimeSpan.Zero)
                     .CreateLogger();
                 //Mongodb query selector
                 //https://docs.mongodb.com/manual/reference/operator/query/?_ga=2.247431684.180059386.1533270388-449267180.1532931380

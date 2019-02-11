@@ -2,6 +2,7 @@
 using Microsoft.Extensions.Configuration;
 using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Data;
 using System.Data.SqlClient;
 using System.Net.NetworkInformation;
@@ -17,35 +18,21 @@ namespace Helper
         {
             _accessor = accessor;
             _configuration = configuration;
+
+            _connStr = SecurityEncrypt.Decrypt(_configuration.GetConnectionString("DefaultConnection"), "nakshal");
+
+            //IpAddressInternal = string.IsNullOrEmpty(_ipValue) ? GetInternalIPAddress() : _ipValue;
+            //IpAddressPublic = string.IsNullOrEmpty(_ipValue) ? GetExternalIPAddress() : _ipValue;
+            //MacAddress = string.IsNullOrEmpty(_macValue) ? GetMACAddress() : _macValue;
         }
         public static string GetAppSettings(string key)
         {
             return _configuration.GetSection("AppSettings").GetValue<string>(key);
         }
-        public static string MacAddress
-        {
-            get
-            {
-                return string.IsNullOrEmpty(_macValue) ? GetMACAddress() : _macValue;
-            }
-        }
+        public static string MacAddress { get; set; }
 
-        public static string IpAddressPublic
-        {
-            get
-            {
-                return string.IsNullOrEmpty(_ipValue) ? GetExternalIPAddress() : _ipValue;
-
-            }
-        }
-        public static string IpAddressInternal
-        {
-            get
-            {
-                return string.IsNullOrEmpty(_ipValue) ? GetInternalIPAddress() : _ipValue;
-
-            }
-        }
+        public static string IpAddressPublic { get; set; }
+        public static string IpAddressInternal { get; set; }
         private static string _macValue { get; set; }
         private static string _ipValue { get; set; }
 

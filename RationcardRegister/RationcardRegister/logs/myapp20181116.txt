@@ -1,0 +1,920 @@
+
+2018-11-16 14:23:16.550 +05:30 [Error] (11) Error Log for null
+System.Net.WebException: The remote server returned an error: (400) Bad Request.
+   at System.Net.HttpWebRequest.GetResponse()
+   at System.Net.WebClient.GetWebResponse(WebRequest request)
+   at System.Net.WebClient.OpenRead(Uri address)
+   at System.Net.WebClient.OpenRead(String address)
+   at Helper.WebClientHelper.GetDataAsSpecific[T](String url) in D:\OneDrive\Websites\rationcardregister.com\RationcardRegister\RationcardRegister\Helper\WebClientHelper.cs:line 21
+
+2018-11-16 14:23:16.705 +05:30 [Error] (11) Error Log for null
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at RationcardRegister.Controllers.HomeController.GetUserLocation(String lat, String lang, String accuracy) in D:\OneDrive\Websites\rationcardregister.com\RationcardRegister\RationcardRegister\RationcardRegister\Controllers\HomeController.cs:line 41
+
+2018-11-16 14:35:58.236 +05:30 [Error] (17) Error Log for null
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at RationcardRegister.Controllers.HomeController.GetUserLocation(String lat, String lng, String accuracy) in D:\OneDrive\Websites\rationcardregister.com\RationcardRegister\RationcardRegister\RationcardRegister\Controllers\HomeController.cs:line 61
+
+2018-11-16 15:27:26.527 +05:30 [Information] (9) {
+   "plus_code" : {
+      "compound_code" : "XJJ6+C3 Bengaluru, Karnataka, India",
+      "global_code" : "7J4VXJJ6+C3"
+   },
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "#9",
+               "short_name" : "#9",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Dickenson Road",
+               "short_name" : "Dickenson Rd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "of",
+               "short_name" : "of",
+               "types" : [ "political", "sublocality", "sublocality_level_1" ]
+            },
+            {
+               "long_name" : "Bengaluru",
+               "short_name" : "Bengaluru",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Karnataka",
+               "short_name" : "KA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "India",
+               "short_name" : "IN",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "560042",
+               "short_name" : "560042",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Commercial Street, #9, Dickenson Rd, of, Bengaluru, Karnataka 560042, India",
+         "geometry" : {
+            "location" : {
+               "lat" : 12.981046,
+               "lng" : 77.610202
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 12.9823949802915,
+                  "lng" : 77.61155098029151
+               },
+               "southwest" : {
+                  "lat" : 12.9796970197085,
+                  "lng" : 77.6088530197085
+               }
+            }
+         },
+         "place_id" : "ChIJ83LlgPgXrjsRC9p5UqHNoyQ",
+         "plus_code" : {
+            "compound_code" : "XJJ6+C3 Bengaluru, Karnataka, India",
+            "global_code" : "7J4VXJJ6+C3"
+         },
+         "types" : [ "establishment", "point_of_interest", "store" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "Kamaraj Road",
+               "short_name" : "Kamaraj Rd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Tasker Town",
+               "short_name" : "Tasker Town",
+               "types" : [ "political", "sublocality", "sublocality_level_2" ]
+            },
+            {
+               "long_name" : "Sivanchetti Gardens",
+               "short_name" : "Sivanchetti Gardens",
+               "types" : [ "political", "sublocality", "sublocality_level_1" ]
+            },
+            {
+               "long_name" : "Bengaluru",
+               "short_name" : "Bengaluru",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Bangalore Urban",
+               "short_name" : "Bangalore Urban",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Karnataka",
+               "short_name" : "KA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "India",
+               "short_name" : "IN",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "560001",
+               "short_name" : "560001",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Kamaraj Rd, Tasker Town, Sivanchetti Gardens, Bengaluru, Karnataka 560001, India",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 12.9813874,
+                  "lng" : 77.61023550000002
+               },
+               "southwest" : {
+                  "lat" : 12.9809801,
+                  "lng" : 77.6100951
+               }
+            },
+            "location" : {
+               "lat" : 12.9811808,
+               "lng" : 77.6101747
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 12.9825327302915,
+                  "lng" : 77.61151428029152
+               },
+               "southwest" : {
+                  "lat" : 12.9798347697085,
+                  "lng" : 77.60881631970851
+               }
+            }
+         },
+         "place_id" : "ChIJp5OyW4gWrjsRGj4egN-35MI",
+         "types" : [ "route" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "560042",
+               "short_name" : "560042",
+               "types" : [ "postal_code" ]
+            },
+            {
+               "long_name" : "Bengaluru",
+               "short_name" : "Bengaluru",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Bangalore Urban",
+               "short_name" : "Bangalore Urban",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Karnataka",
+               "short_name" : "KA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "India",
+               "short_name" : "IN",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Bengaluru, Karnataka 560042, India",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 12.9906062,
+                  "lng" : 77.62605690000001
+               },
+               "southwest" : {
+                  "lat" : 12.9746844,
+                  "lng" : 77.6086998
+               }
+            },
+            "location" : {
+               "lat" : 12.9827745,
+               "lng" : 77.6130519
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 12.9906062,
+                  "lng" : 77.62605690000001
+               },
+               "southwest" : {
+                  "lat" : 12.9746844,
+                  "lng" : 77.6086998
+               }
+            }
+         },
+         "place_id" : "ChIJZ723244WrjsRFBI8JP2jpCs",
+         "types" : [ "postal_code" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "Sivanchetti Gardens",
+               "short_name" : "Sivanchetti Gardens",
+               "types" : [ "political", "sublocality", "sublocality_level_1" ]
+            },
+            {
+               "long_name" : "Bengaluru",
+               "short_name" : "Bengaluru",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Bangalore Urban",
+               "short_name" : "Bangalore Urban",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Karnataka",
+               "short_name" : "KA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "India",
+               "short_name" : "IN",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Sivanchetti Gardens, Bengaluru, Karnataka, India",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 12.990563,
+                  "lng" : 77.6228749
+               },
+               "southwest" : {
+                  "lat" : 12.972467,
+                  "lng" : 77.60791979999999
+               }
+            },
+            "location" : {
+               "lat" : 12.9808666,
+               "lng" : 77.61552379999999
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 12.990563,
+                  "lng" : 77.6228749
+               },
+               "southwest" : {
+                  "lat" : 12.972467,
+                  "lng" : 77.60791979999999
+               }
+            }
+         },
+         "place_id" : "ChIJyy_Pto4WrjsRnL8i5cXTebo",
+         "types" : [ "political", "sublocality", "sublocality_level_1" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "Bengaluru",
+               "short_name" : "Bengaluru",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Bangalore Urban",
+               "short_name" : "Bangalore Urban",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Karnataka",
+               "short_name" : "KA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "India",
+               "short_name" : "IN",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Bengaluru, Karnataka, India",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 13.173706,
+                  "lng" : 77.8826809
+               },
+               "southwest" : {
+                  "lat" : 12.7342888,
+                  "lng" : 77.3791981
+               }
+            },
+            "location" : {
+               "lat" : 12.9715987,
+               "lng" : 77.5945627
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 13.173706,
+                  "lng" : 77.8826809
+               },
+               "southwest" : {
+                  "lat" : 12.7342888,
+                  "lng" : 77.3791981
+               }
+            }
+         },
+         "place_id" : "ChIJbU60yXAWrjsR4E9-UejD3_g",
+         "types" : [ "locality", "political" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "Bangalore Urban",
+               "short_name" : "Bangalore Urban",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Karnataka",
+               "short_name" : "KA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "India",
+               "short_name" : "IN",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Bangalore Urban, Karnataka, India",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 13.22497,
+                  "lng" : 77.83501
+               },
+               "southwest" : {
+                  "lat" : 12.65785,
+                  "lng" : 77.32867
+               }
+            },
+            "location" : {
+               "lat" : 12.9700247,
+               "lng" : 77.65361249999999
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 13.22497,
+                  "lng" : 77.83501
+               },
+               "southwest" : {
+                  "lat" : 12.65785,
+                  "lng" : 77.32867
+               }
+            }
+         },
+         "place_id" : "ChIJ_Q7NCkQWrjsRn2yP7O-T8Fg",
+         "types" : [ "administrative_area_level_2", "political" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "Karnataka",
+               "short_name" : "KA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "India",
+               "short_name" : "IN",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Karnataka, India",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 18.4411689,
+                  "lng" : 78.5860101
+               },
+               "southwest" : {
+                  "lat" : 11.593352,
+                  "lng" : 74.04960609999999
+               }
+            },
+            "location" : {
+               "lat" : 15.3172775,
+               "lng" : 75.7138884
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 18.4411689,
+                  "lng" : 78.5860101
+               },
+               "southwest" : {
+                  "lat" : 11.593352,
+                  "lng" : 74.04960609999999
+               }
+            }
+         },
+         "place_id" : "ChIJj0i_N0xaozsR1Xx10YzS8UE",
+         "types" : [ "administrative_area_level_1", "political" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "India",
+               "short_name" : "IN",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "India",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 35.513327,
+                  "lng" : 97.39535869999999
+               },
+               "southwest" : {
+                  "lat" : 6.4626999,
+                  "lng" : 68.1097
+               }
+            },
+            "location" : {
+               "lat" : 20.593684,
+               "lng" : 78.96288
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 35.513327,
+                  "lng" : 97.39535869999999
+               },
+               "southwest" : {
+                  "lat" : 6.4626999,
+                  "lng" : 68.1097
+               }
+            }
+         },
+         "place_id" : "ChIJkbeSa_BfYzARphNChaFPjNc",
+         "types" : [ "country", "political" ]
+      }
+   ],
+   "status" : "OK"
+}
+
+
+2018-11-16 15:29:29.499 +05:30 [Information] (7) {
+   "plus_code" : {
+      "compound_code" : "XJJ6+C3 Bengaluru, Karnataka, India",
+      "global_code" : "7J4VXJJ6+C3"
+   },
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "#9",
+               "short_name" : "#9",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Dickenson Road",
+               "short_name" : "Dickenson Rd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "of",
+               "short_name" : "of",
+               "types" : [ "political", "sublocality", "sublocality_level_1" ]
+            },
+            {
+               "long_name" : "Bengaluru",
+               "short_name" : "Bengaluru",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Karnataka",
+               "short_name" : "KA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "India",
+               "short_name" : "IN",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "560042",
+               "short_name" : "560042",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Commercial Street, #9, Dickenson Rd, of, Bengaluru, Karnataka 560042, India",
+         "geometry" : {
+            "location" : {
+               "lat" : 12.981046,
+               "lng" : 77.610202
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 12.9823949802915,
+                  "lng" : 77.61155098029151
+               },
+               "southwest" : {
+                  "lat" : 12.9796970197085,
+                  "lng" : 77.6088530197085
+               }
+            }
+         },
+         "place_id" : "ChIJ83LlgPgXrjsRC9p5UqHNoyQ",
+         "plus_code" : {
+            "compound_code" : "XJJ6+C3 Bengaluru, Karnataka, India",
+            "global_code" : "7J4VXJJ6+C3"
+         },
+         "types" : [ "establishment", "point_of_interest", "store" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "Kamaraj Road",
+               "short_name" : "Kamaraj Rd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Tasker Town",
+               "short_name" : "Tasker Town",
+               "types" : [ "political", "sublocality", "sublocality_level_2" ]
+            },
+            {
+               "long_name" : "Sivanchetti Gardens",
+               "short_name" : "Sivanchetti Gardens",
+               "types" : [ "political", "sublocality", "sublocality_level_1" ]
+            },
+            {
+               "long_name" : "Bengaluru",
+               "short_name" : "Bengaluru",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Bangalore Urban",
+               "short_name" : "Bangalore Urban",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Karnataka",
+               "short_name" : "KA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "India",
+               "short_name" : "IN",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "560001",
+               "short_name" : "560001",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Kamaraj Rd, Tasker Town, Sivanchetti Gardens, Bengaluru, Karnataka 560001, India",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 12.9813874,
+                  "lng" : 77.61023550000002
+               },
+               "southwest" : {
+                  "lat" : 12.9809801,
+                  "lng" : 77.6100951
+               }
+            },
+            "location" : {
+               "lat" : 12.9811808,
+               "lng" : 77.6101747
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 12.9825327302915,
+                  "lng" : 77.61151428029152
+               },
+               "southwest" : {
+                  "lat" : 12.9798347697085,
+                  "lng" : 77.60881631970851
+               }
+            }
+         },
+         "place_id" : "ChIJp5OyW4gWrjsRGj4egN-35MI",
+         "types" : [ "route" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "560042",
+               "short_name" : "560042",
+               "types" : [ "postal_code" ]
+            },
+            {
+               "long_name" : "Bengaluru",
+               "short_name" : "Bengaluru",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Bangalore Urban",
+               "short_name" : "Bangalore Urban",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Karnataka",
+               "short_name" : "KA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "India",
+               "short_name" : "IN",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Bengaluru, Karnataka 560042, India",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 12.9906062,
+                  "lng" : 77.62605690000001
+               },
+               "southwest" : {
+                  "lat" : 12.9746844,
+                  "lng" : 77.6086998
+               }
+            },
+            "location" : {
+               "lat" : 12.9827745,
+               "lng" : 77.6130519
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 12.9906062,
+                  "lng" : 77.62605690000001
+               },
+               "southwest" : {
+                  "lat" : 12.9746844,
+                  "lng" : 77.6086998
+               }
+            }
+         },
+         "place_id" : "ChIJZ723244WrjsRFBI8JP2jpCs",
+         "types" : [ "postal_code" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "Sivanchetti Gardens",
+               "short_name" : "Sivanchetti Gardens",
+               "types" : [ "political", "sublocality", "sublocality_level_1" ]
+            },
+            {
+               "long_name" : "Bengaluru",
+               "short_name" : "Bengaluru",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Bangalore Urban",
+               "short_name" : "Bangalore Urban",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Karnataka",
+               "short_name" : "KA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "India",
+               "short_name" : "IN",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Sivanchetti Gardens, Bengaluru, Karnataka, India",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 12.990563,
+                  "lng" : 77.6228749
+               },
+               "southwest" : {
+                  "lat" : 12.972467,
+                  "lng" : 77.60791979999999
+               }
+            },
+            "location" : {
+               "lat" : 12.9808666,
+               "lng" : 77.61552379999999
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 12.990563,
+                  "lng" : 77.6228749
+               },
+               "southwest" : {
+                  "lat" : 12.972467,
+                  "lng" : 77.60791979999999
+               }
+            }
+         },
+         "place_id" : "ChIJyy_Pto4WrjsRnL8i5cXTebo",
+         "types" : [ "political", "sublocality", "sublocality_level_1" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "Bengaluru",
+               "short_name" : "Bengaluru",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Bangalore Urban",
+               "short_name" : "Bangalore Urban",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Karnataka",
+               "short_name" : "KA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "India",
+               "short_name" : "IN",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Bengaluru, Karnataka, India",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 13.173706,
+                  "lng" : 77.8826809
+               },
+               "southwest" : {
+                  "lat" : 12.7342888,
+                  "lng" : 77.3791981
+               }
+            },
+            "location" : {
+               "lat" : 12.9715987,
+               "lng" : 77.5945627
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 13.173706,
+                  "lng" : 77.8826809
+               },
+               "southwest" : {
+                  "lat" : 12.7342888,
+                  "lng" : 77.3791981
+               }
+            }
+         },
+         "place_id" : "ChIJbU60yXAWrjsR4E9-UejD3_g",
+         "types" : [ "locality", "political" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "Bangalore Urban",
+               "short_name" : "Bangalore Urban",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Karnataka",
+               "short_name" : "KA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "India",
+               "short_name" : "IN",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Bangalore Urban, Karnataka, India",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 13.22497,
+                  "lng" : 77.83501
+               },
+               "southwest" : {
+                  "lat" : 12.65785,
+                  "lng" : 77.32867
+               }
+            },
+            "location" : {
+               "lat" : 12.9700247,
+               "lng" : 77.65361249999999
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 13.22497,
+                  "lng" : 77.83501
+               },
+               "southwest" : {
+                  "lat" : 12.65785,
+                  "lng" : 77.32867
+               }
+            }
+         },
+         "place_id" : "ChIJ_Q7NCkQWrjsRn2yP7O-T8Fg",
+         "types" : [ "administrative_area_level_2", "political" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "Karnataka",
+               "short_name" : "KA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "India",
+               "short_name" : "IN",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Karnataka, India",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 18.4411689,
+                  "lng" : 78.5860101
+               },
+               "southwest" : {
+                  "lat" : 11.593352,
+                  "lng" : 74.04960609999999
+               }
+            },
+            "location" : {
+               "lat" : 15.3172775,
+               "lng" : 75.7138884
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 18.4411689,
+                  "lng" : 78.5860101
+               },
+               "southwest" : {
+                  "lat" : 11.593352,
+                  "lng" : 74.04960609999999
+               }
+            }
+         },
+         "place_id" : "ChIJj0i_N0xaozsR1Xx10YzS8UE",
+         "types" : [ "administrative_area_level_1", "political" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "India",
+               "short_name" : "IN",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "India",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 35.513327,
+                  "lng" : 97.39535869999999
+               },
+               "southwest" : {
+                  "lat" : 6.4626999,
+                  "lng" : 68.1097
+               }
+            },
+            "location" : {
+               "lat" : 20.593684,
+               "lng" : 78.96288
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 35.513327,
+                  "lng" : 97.39535869999999
+               },
+               "southwest" : {
+                  "lat" : 6.4626999,
+                  "lng" : 68.1097
+               }
+            }
+         },
+         "place_id" : "ChIJkbeSa_BfYzARphNChaFPjNc",
+         "types" : [ "country", "political" ]
+      }
+   ],
+   "status" : "OK"
+}
+

@@ -1,0 +1,105 @@
+﻿@using HelperManagers
+@using Helper
+@using Microsoft.AspNetCore.Http
+@{
+    Layout = null;
+}
+<h1 id=list>-</h1>
+<ul>
+    <li>
+        Network.GetActiveIP : @Network.GetActiveIP()
+    </li>
+    <li>
+        Network.GetPublicIpAddress : @Network.GetPublicIpAddress()
+        ConnectionManager.IpAddressPublic : @ViewBag.publicIp
+    </li>
+    <li>
+        Network.GetActiveMACAddress(): @Network.GetActiveMACAddress()
+        ConnectionManager.MacAddress : @ConnectionManager.MacAddress
+    </li>
+    <li>
+        Network.GetActiveGateway() : 
+    </li>
+</ul>
+<script>
+    var localIp, publicIp, city, region, country, loc, org;
+    $(function () {
+        $.ajax({
+            url: 'https://ipinfo.io/json?token=95f222df798ba2',
+            method: 'GET',
+            success: function (data, textStatus, jqXHR) {
+                //{
+                //  "ip": "49.213.19.72",
+                //  "city": "Singapore",
+                //  "region": "Central Singapore Community Development Council",
+                //  "country": "SG",
+                //  "loc": "1.2931,103.8560",
+                //   "org": "AS24482 SG.GS"
+                //}
+                if (data != null) {
+                    publicIp = data.ip;
+                    city = data.city;
+                    region = data.region;
+                    country = data.country;
+                    loc = data.loc;
+                    org = data.org;
+                }                
+            },
+            error: function (error, status, jqXHR) {
+                
+            }
+        });
+
+        //Local ip
+        // NOTE: window.RTCPeerConnection is "not a constructor" in FF22/23
+        var RTCPeerConnection = /*window.RTCPeerConnection ||*/ window.webkitRTCPeerConnection || window.mozRTCPeerConnection;
+
+        if (RTCPeerConnection) (function () {
+            var rtc = new RTCPeerConnection({ iceServers: [] });
+            if (1 || window.mozRTCPeerConnection) {      // FF [and now Chrome!] needs a channel/stream to proceed
+                rtc.createDataChannel('', { reliable: false });
+            };
+
+            rtc.onicecandidate = function (evt) {
+                // convert the candidate to SDP so we can run it through our general parser
+                // see https://twitter.com/lancestout/status/525796175425720320 for details
+                if (evt.candidate) grepSDP("a=" + evt.candidate.candidate);
+            };
+            rtc.createOffer(function (offerDesc) {
+                grepSDP(offerDesc.sdp);
+                rtc.setLocalDescription(offerDesc);
+            }, function (e) { console.warn("offer failed", e); });
+
+
+            var addrs = Object.create(null);
+            addrs["0.0.0.0"] = false;
+            function updateDisplay(newAddr) {
+                if (newAddr in addrs) return;
+                else addrs[newAddr] = true;
+                var displayAddrs = Object.keys(addrs).filter(function (k) { return addrs[k]; });
+                localIp = displayAddrs.join(" or perhaps ") || "n/a";
+                $('#list').html(localIp);
+            }
+
+            function grepSDP(sdp) {
+                var hosts = [];
+                sdp.split('\r\n').forEach(function (line) { // c.f. http://tools.ietf.org/html/rfc4566#page-39
+                    if (~line.indexOf("a=candidate")) {     // http://tools.ietf.org/html/rfc4566#section-5.13
+                        var parts = line.split(' '),        // http://tools.ietf.org/html/rfc5245#section-15.1
+                            addr = parts[4],
+                            type = parts[7];
+                        if (type === 'host') updateDisplay(addr);
+                    } else if (~line.indexOf("c=")) {       // http://tools.ietf.org/html/rfc4566#section-5.7
+                        var parts = line.split(' '),
+                            addr = parts[2];
+                        updateDisplay(addr);
+                    }
+                });
+            }
+        })();
+        else {
+            $('#list').html("<code>ifconfig | grep inet | grep -v inet6 | cut -d\" \" -f2 | tail -n1</code>");
+            //document.getElementById('list').nextSibling.textContent = "In Chrome and Firefox your IP should display automatically, by the power of WebRTCskull.";
+        }
+    });
+</script>

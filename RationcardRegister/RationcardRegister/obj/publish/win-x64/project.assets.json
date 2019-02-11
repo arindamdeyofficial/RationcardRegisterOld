@@ -2753,6 +2753,9 @@
           "lib/netstandard1.3/Newtonsoft.Json.Bson.dll": {}
         }
       },
+      "Node.js.redist/10.6.0": {
+        "type": "package"
+      },
       "Remotion.Linq/2.2.0": {
         "type": "package",
         "dependencies": {
@@ -4967,7 +4970,9 @@
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "5.0.1",
           "BusinessObjects": "1.0.0",
           "Microsoft.AspNetCore": "2.1.4",
+          "Microsoft.AspNetCore.NodeServices": "2.1.1",
           "MongoDB.Driver": "2.7.0",
+          "Node.js.redist": "10.6.0",
           "Serilog": "2.7.1",
           "Serilog.Sinks.File": "4.0.0",
           "Serilog.Sinks.MongoDB": "3.1.0",
@@ -7762,6 +7767,9 @@
           "lib/netstandard1.3/Newtonsoft.Json.Bson.dll": {}
         }
       },
+      "Node.js.redist/10.6.0": {
+        "type": "package"
+      },
       "Remotion.Linq/2.2.0": {
         "type": "package",
         "dependencies": {
@@ -9956,7 +9964,9 @@
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "5.0.1",
           "BusinessObjects": "1.0.0",
           "Microsoft.AspNetCore": "2.1.4",
+          "Microsoft.AspNetCore.NodeServices": "2.1.1",
           "MongoDB.Driver": "2.7.0",
+          "Node.js.redist": "10.6.0",
           "Serilog": "2.7.1",
           "Serilog.Sinks.File": "4.0.0",
           "Serilog.Sinks.MongoDB": "3.1.0",
@@ -12724,6 +12734,19 @@
         "lib/netstandard1.3/Newtonsoft.Json.Bson.xml",
         "newtonsoft.json.bson.1.0.1.nupkg.sha512",
         "newtonsoft.json.bson.nuspec"
+      ]
+    },
+    "Node.js.redist/10.6.0": {
+      "sha512": "d2e+8JeM6yJaciinPVNjBYgQycumeyfvlJ/VDvzdMSwOji1WWMAAaFt6m252xr4FkHECA07f88sriq6cgVU4WA==",
+      "type": "package",
+      "path": "node.js.redist/10.6.0",
+      "files": [
+        "node.js.redist.10.6.0.nupkg.sha512",
+        "node.js.redist.nuspec",
+        "tools/linux-x64/node",
+        "tools/osx-x64/node",
+        "tools/win-x64/node.exe",
+        "tools/win-x86/node.exe"
       ]
     },
     "Remotion.Linq/2.2.0": {

@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.1",
-    "signature": "3baec6e34f2188fa3ae32bac4f849b0b1d226045"
+    "signature": "d6954f62815129c2041117b750409e8fe839a992"
   },
   "compilationOptions": {
     "defines": [
@@ -490,6 +490,7 @@
           "Microsoft.NETCore.Platforms": "2.1.0"
         }
       },
+      "Node.js.redist/10.6.0": {},
       "runtime.native.System.Net.Security/4.0.1": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "2.1.0",
@@ -994,7 +995,9 @@
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "5.0.1",
           "BusinessObjects": "1.0.0",
           "Microsoft.AspNetCore": "2.1.4",
+          "Microsoft.AspNetCore.NodeServices": "2.1.1",
           "MongoDB.Driver": "2.7.0",
+          "Node.js.redist": "10.6.0",
           "Serilog": "2.7.1",
           "Serilog.Sinks.File": "4.0.0",
           "Serilog.Sinks.MongoDB": "3.1.0",
@@ -3991,6 +3994,13 @@
       "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
       "path": "netstandard.library/2.0.3",
       "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    },
+    "Node.js.redist/10.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-d2e+8JeM6yJaciinPVNjBYgQycumeyfvlJ/VDvzdMSwOji1WWMAAaFt6m252xr4FkHECA07f88sriq6cgVU4WA==",
+      "path": "node.js.redist/10.6.0",
+      "hashPath": "node.js.redist.10.6.0.nupkg.sha512"
     },
     "runtime.native.System.Net.Security/4.0.1": {
       "type": "package",

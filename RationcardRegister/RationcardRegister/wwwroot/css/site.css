@@ -36,23 +36,13 @@ body {
     }
 }
 
-.myPicContainer {
-    margin-bottom:10px;
-}
-
-    .myPicContainer img {
-        width: 280px;
-        height: 350px;
-        object-fit: cover;
-    }
-
 .myLogoContainer {
     
 }
 
     .myLogoContainer img {
         object-position: 50% 50%;
-        height: 471px;
+        height: 198px;
         object-fit: cover;
     }
 .rationCardContainer {
@@ -71,7 +61,7 @@ body {
     }
 
 .loginContainer {
-    top: 10px;
+    top: 40px;
     position: relative;
     padding-left:10px;
 }
@@ -100,6 +90,7 @@ body {
         }
 
 .mySupportBack {
+    top:5px;
     background-image: linear-gradient(to right, darkseagreen, darkgreen);
     background-repeat: no-repeat;
     background-position: center;
@@ -125,21 +116,18 @@ body {
         }
 
 .name {
-    font-size: xx-large;
+    font-size: large;
     z-index: 50;
     height: 42px;
     min-height: 42px;
-    width: 300px;
 }
-.userName{
-    font-size:larger;
-    color:darkblue;
+.logoAndContactContainer{
+    margin-top:20px;
 }
-
 /*passcode start*/
 #pin {
-    height:600px;
-    background-color:green;
+    height: 636px;
+    background-color: green;
     width: 20em;
     display: -webkit-box;
     display: -webkit-flex;

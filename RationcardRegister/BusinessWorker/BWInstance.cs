@@ -7,8 +7,7 @@ using MasterDataManager;
 using System;
 using System.Collections.Generic;
 using System.Threading;
-
-
+using System.Threading.Tasks;
 
 namespace BusinessObjects
 {
@@ -22,6 +21,17 @@ namespace BusinessObjects
         private BWInstance()
         {
         }
+        //public int myTask(int a)
+        //{
+        //    var r = dummy(a);
+        //    r.Wait();
+        //    return r.Result;
+        //}
+        //public async Task<int> dummy(int a)
+        //{
+        //    await Task.Delay(1000);
+        //    return a;
+        //}
 
         public void FetchMasterData()
         {

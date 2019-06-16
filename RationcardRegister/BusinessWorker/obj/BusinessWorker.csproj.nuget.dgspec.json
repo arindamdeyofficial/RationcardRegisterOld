@@ -1,0 +1,441 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\OneDrive\\Websites\\rationcardregister.com\\RationcardRegister\\RationcardRegister\\BusinessWorker\\BusinessWorker.csproj": {}
+  },
+  "projects": {
+    "D:\\OneDrive\\Websites\\rationcardregister.com\\RationcardRegister\\RationcardRegister\\BusinessObjects\\BusinessObjects.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\OneDrive\\Websites\\rationcardregister.com\\RationcardRegister\\RationcardRegister\\BusinessObjects\\BusinessObjects.csproj",
+        "projectName": "BusinessObjects",
+        "projectPath": "D:\\OneDrive\\Websites\\rationcardregister.com\\RationcardRegister\\RationcardRegister\\BusinessObjects\\BusinessObjects.csproj",
+        "packagesPath": "C:\\Users\\bipla\\.nuget\\packages\\",
+        "outputPath": "D:\\OneDrive\\Websites\\rationcardregister.com\\RationcardRegister\\RationcardRegister\\BusinessObjects\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bipla\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.7.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "D:\\OneDrive\\Websites\\rationcardregister.com\\RationcardRegister\\RationcardRegister\\BusinessWorker\\BusinessWorker.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\OneDrive\\Websites\\rationcardregister.com\\RationcardRegister\\RationcardRegister\\BusinessWorker\\BusinessWorker.csproj",
+        "projectName": "BusinessWorker",
+        "projectPath": "D:\\OneDrive\\Websites\\rationcardregister.com\\RationcardRegister\\RationcardRegister\\BusinessWorker\\BusinessWorker.csproj",
+        "packagesPath": "C:\\Users\\bipla\\.nuget\\packages\\",
+        "outputPath": "D:\\OneDrive\\Websites\\rationcardregister.com\\RationcardRegister\\RationcardRegister\\BusinessWorker\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bipla\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "D:\\OneDrive\\Websites\\rationcardregister.com\\RationcardRegister\\RationcardRegister\\BusinessObjects\\BusinessObjects.csproj": {
+                "projectPath": "D:\\OneDrive\\Websites\\rationcardregister.com\\RationcardRegister\\RationcardRegister\\BusinessObjects\\BusinessObjects.csproj"
+              },
+              "D:\\OneDrive\\Websites\\rationcardregister.com\\RationcardRegister\\RationcardRegister\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "D:\\OneDrive\\Websites\\rationcardregister.com\\RationcardRegister\\RationcardRegister\\DataAccess\\DataAccess.csproj"
+              },
+              "D:\\OneDrive\\Websites\\rationcardregister.com\\RationcardRegister\\RationcardRegister\\HelperManagers\\HelperManagers.csproj": {
+                "projectPath": "D:\\OneDrive\\Websites\\rationcardregister.com\\RationcardRegister\\RationcardRegister\\HelperManagers\\HelperManagers.csproj"
+              },
+              "D:\\OneDrive\\Websites\\rationcardregister.com\\RationcardRegister\\RationcardRegister\\Helper\\Helper.csproj": {
+                "projectPath": "D:\\OneDrive\\Websites\\rationcardregister.com\\RationcardRegister\\RationcardRegister\\Helper\\Helper.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "D:\\OneDrive\\Websites\\rationcardregister.com\\RationcardRegister\\RationcardRegister\\DataAccess\\DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\OneDrive\\Websites\\rationcardregister.com\\RationcardRegister\\RationcardRegister\\DataAccess\\DataAccess.csproj",
+        "projectName": "DataAccess",
+        "projectPath": "D:\\OneDrive\\Websites\\rationcardregister.com\\RationcardRegister\\RationcardRegister\\DataAccess\\DataAccess.csproj",
+        "packagesPath": "C:\\Users\\bipla\\.nuget\\packages\\",
+        "outputPath": "D:\\OneDrive\\Websites\\rationcardregister.com\\RationcardRegister\\RationcardRegister\\DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bipla\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "D:\\OneDrive\\Websites\\rationcardregister.com\\RationcardRegister\\RationcardRegister\\BusinessObjects\\BusinessObjects.csproj": {
+                "projectPath": "D:\\OneDrive\\Websites\\rationcardregister.com\\RationcardRegister\\RationcardRegister\\BusinessObjects\\BusinessObjects.csproj"
+              },
+              "D:\\OneDrive\\Websites\\rationcardregister.com\\RationcardRegister\\RationcardRegister\\Helper\\Helper.csproj": {
+                "projectPath": "D:\\OneDrive\\Websites\\rationcardregister.com\\RationcardRegister\\RationcardRegister\\Helper\\Helper.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.5.1, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "D:\\OneDrive\\Websites\\rationcardregister.com\\RationcardRegister\\RationcardRegister\\HelperManagers\\HelperManagers.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\OneDrive\\Websites\\rationcardregister.com\\RationcardRegister\\RationcardRegister\\HelperManagers\\HelperManagers.csproj",
+        "projectName": "HelperManagers",
+        "projectPath": "D:\\OneDrive\\Websites\\rationcardregister.com\\RationcardRegister\\RationcardRegister\\HelperManagers\\HelperManagers.csproj",
+        "packagesPath": "C:\\Users\\bipla\\.nuget\\packages\\",
+        "outputPath": "D:\\OneDrive\\Websites\\rationcardregister.com\\RationcardRegister\\RationcardRegister\\HelperManagers\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bipla\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "D:\\OneDrive\\Websites\\rationcardregister.com\\RationcardRegister\\RationcardRegister\\BusinessObjects\\BusinessObjects.csproj": {
+                "projectPath": "D:\\OneDrive\\Websites\\rationcardregister.com\\RationcardRegister\\RationcardRegister\\BusinessObjects\\BusinessObjects.csproj"
+              },
+              "D:\\OneDrive\\Websites\\rationcardregister.com\\RationcardRegister\\RationcardRegister\\Helper\\Helper.csproj": {
+                "projectPath": "D:\\OneDrive\\Websites\\rationcardregister.com\\RationcardRegister\\RationcardRegister\\Helper\\Helper.csproj"
+              },
+              "D:\\OneDrive\\Websites\\rationcardregister.com\\RationcardRegister\\RationcardRegister\\MasterDataManager\\MasterDataManager.csproj": {
+                "projectPath": "D:\\OneDrive\\Websites\\rationcardregister.com\\RationcardRegister\\RationcardRegister\\MasterDataManager\\MasterDataManager.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "D:\\OneDrive\\Websites\\rationcardregister.com\\RationcardRegister\\RationcardRegister\\Helper\\Helper.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\OneDrive\\Websites\\rationcardregister.com\\RationcardRegister\\RationcardRegister\\Helper\\Helper.csproj",
+        "projectName": "Helper",
+        "projectPath": "D:\\OneDrive\\Websites\\rationcardregister.com\\RationcardRegister\\RationcardRegister\\Helper\\Helper.csproj",
+        "packagesPath": "C:\\Users\\bipla\\.nuget\\packages\\",
+        "outputPath": "D:\\OneDrive\\Websites\\rationcardregister.com\\RationcardRegister\\RationcardRegister\\Helper\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bipla\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "D:\\OneDrive\\Websites\\rationcardregister.com\\RationcardRegister\\RationcardRegister\\BusinessObjects\\BusinessObjects.csproj": {
+                "projectPath": "D:\\OneDrive\\Websites\\rationcardregister.com\\RationcardRegister\\RationcardRegister\\BusinessObjects\\BusinessObjects.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.AspNetCore": {
+              "target": "Package",
+              "version": "[2.1.4, )"
+            },
+            "Microsoft.AspNetCore.NodeServices": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.7.0, )"
+            },
+            "Node.js.redist": {
+              "target": "Package",
+              "version": "[10.6.0, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.7.1, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "Serilog.Sinks.MongoDB": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Serilog.Sinks.RollingFile": {
+              "target": "Package",
+              "version": "[3.3.0, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.5.1, )"
+            },
+            "System.IO.FileSystem": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "D:\\OneDrive\\Websites\\rationcardregister.com\\RationcardRegister\\RationcardRegister\\MasterDataManager\\MasterDataManager.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\OneDrive\\Websites\\rationcardregister.com\\RationcardRegister\\RationcardRegister\\MasterDataManager\\MasterDataManager.csproj",
+        "projectName": "MasterDataManager",
+        "projectPath": "D:\\OneDrive\\Websites\\rationcardregister.com\\RationcardRegister\\RationcardRegister\\MasterDataManager\\MasterDataManager.csproj",
+        "packagesPath": "C:\\Users\\bipla\\.nuget\\packages\\",
+        "outputPath": "D:\\OneDrive\\Websites\\rationcardregister.com\\RationcardRegister\\RationcardRegister\\MasterDataManager\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bipla\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "D:\\OneDrive\\Websites\\rationcardregister.com\\RationcardRegister\\RationcardRegister\\BusinessObjects\\BusinessObjects.csproj": {
+                "projectPath": "D:\\OneDrive\\Websites\\rationcardregister.com\\RationcardRegister\\RationcardRegister\\BusinessObjects\\BusinessObjects.csproj"
+              },
+              "D:\\OneDrive\\Websites\\rationcardregister.com\\RationcardRegister\\RationcardRegister\\Helper\\Helper.csproj": {
+                "projectPath": "D:\\OneDrive\\Websites\\rationcardregister.com\\RationcardRegister\\RationcardRegister\\Helper\\Helper.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "System.Data.DataSetExtensions": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

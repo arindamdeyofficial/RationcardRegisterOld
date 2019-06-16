@@ -1,6 +1,9 @@
 ﻿using BusinessObjects;
 using Helper;
 using HelperManagers;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Authentication.OpenIdConnect;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
@@ -11,6 +14,7 @@ using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Net;
+using System.Threading.Tasks;
 
 namespace RationcardRegister.Controllers
 {
@@ -21,6 +25,25 @@ namespace RationcardRegister.Controllers
         {
             _accessor = accessor;
         }
+
+        [Route("login")]
+        public IActionResult Login(string returnUrl)
+        {
+            return Challenge(new AuthenticationProperties { RedirectUri = "/" },
+                             OpenIdConnectDefaults.AuthenticationScheme);
+        }
+
+        [HttpPost]
+        [Route("logout")]
+        [ValidateAntiForgeryToken]
+        public async Task Logout()
+        {
+            if (User.Identity.IsAuthenticated)
+            {
+                await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+                await HttpContext.SignOutAsync(OpenIdConnectDefaults.AuthenticationScheme);
+            }
+        }
         public IActionResult Index()
         {
             try
@@ -28,6 +51,7 @@ namespace RationcardRegister.Controllers
                 ViewBag.publicIp = _accessor.HttpContext.Connection.RemoteIpAddress.ToString();
                 ViewBag.mac = Network.GetActiveMACAddress().ToString();
                 ViewBag.gateway = Network.GetActiveGateway().ToString();
+
             }
             catch (Exception ex)
             {                
@@ -35,7 +59,7 @@ namespace RationcardRegister.Controllers
             }
             return View();
         }
-
+        
         [HttpPost]
         public List<Address> GetUserLocation(string lat, string lng, string accuracy)
         {

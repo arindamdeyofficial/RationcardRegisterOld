@@ -1,0 +1,6 @@
+
+2019-06-16 06:49:35.051 +05:30 [Error] (10) Error Log for null
+System.Net.Sockets.SocketException (11004): The requested name is valid, but no data of the requested type was found
+   at System.Net.Dns.InternalGetHostByAddress(IPAddress address)
+   at System.Net.Dns.GetHostEntry(String hostNameOrAddress)
+   at HelperManagers.Network.GetMACAddress(String sName) in D:\OneDrive\Websites\rationcardregister.com\RationcardRegister\RationcardRegister\HelperManagers\Network.cs:line 69

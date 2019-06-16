@@ -12,6 +12,9 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.AspNetCore.DataProtection;
+using Microsoft.AspNetCore.Authentication.OpenIdConnect;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.IdentityModel.Protocols.OpenIdConnect;
 
 namespace RationcardRegister
 {
@@ -27,10 +30,42 @@ namespace RationcardRegister
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            //services.AddAuthentication(options =>
+            //{
+            //    options.DefaultAuthenticateScheme = OpenIdConnectDefaults.AuthenticationScheme;
+            //    options.DefaultSignInScheme = CookieAuthenticationDefaults.AuthenticationScheme;
+            //    options.DefaultChallengeScheme = CookieAuthenticationDefaults.AuthenticationScheme;
+            //})
+            //.AddOpenIdConnect(options =>
+            //{
+            //    options.Authority = "https://biplabhomegmail.onmicrosoft.com/a2dc4dc9-6d6a-4d1e-8520-09779830ca63"; //Tenant id / Directory Id - a2dc4dc9-6d6a-4d1e-8520-09779830ca63
+            //    options.ClientId = "b50896be-b613-4120-ad17-83737431b120" ; //"YOUR_APPLICATION_ID"
+            //    options.ResponseType = OpenIdConnectResponseType.IdToken;
+            //    options.CallbackPath = "/auth/signin-callback";
+            //    options.SignedOutRedirectUri = "https://localhost:44379/";
+            //    options.TokenValidationParameters.NameClaimType = "name";
+            //})
+            //.AddCookie();
+
             services.AddDataProtection();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
             // Enable Node Services
             services.AddNodeServices();
+
+            services.AddHttpsRedirection(options =>
+            {
+                options.RedirectStatusCode = StatusCodes.Status307TemporaryRedirect;
+                options.HttpsPort = 5001;
+            });
+
+            services.AddHsts(options =>
+            {
+                options.Preload = true;
+                options.IncludeSubDomains = true;
+                options.MaxAge = TimeSpan.FromDays(60);
+                //options.ExcludedHosts.Add("rationcardregister.com");
+                //options.ExcludedHosts.Add("www.rationcardregister.com");
+            });
 
             //private IHttpContextAccessor _accessor;
             //public SomeController(IHttpContextAccessor accessor)

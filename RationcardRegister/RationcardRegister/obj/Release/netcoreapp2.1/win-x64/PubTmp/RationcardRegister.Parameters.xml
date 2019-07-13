@@ -1,6 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<parameters>
-  <parameter name="IIS Web Application Name" description="" value="RationCardregisterWebApp" tags="IisApp">
-    <parameterEntry kind="ProviderPath" scope="IisApp" match="^D:\\OneDrive\\Websites\\rationcardregister\.com\\RationcardRegister\\RationcardRegister\\RationcardRegister\\obj\\Release\\netcoreapp2\.1\\win-x64\\PubTmp\\Out\\$" />
-  </parameter>
-</parameters>

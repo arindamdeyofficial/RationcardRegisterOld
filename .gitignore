@@ -1,2 +1,24 @@
 
 /RationcardRegister/.vs
+/RationCardRegister/BusinessObject/obj
+/RationCardRegister/BusinessObject/bin/Debug/netcoreapp2.2
+/RationCardRegister/BusinessWorker/obj
+/RationCardRegister/ConfigurationManager/bin/Debug/netcoreapp2.2
+/RationCardRegister/ConfigurationManager/obj
+/RationCardRegister/CustomLogger/bin/Debug/netcoreapp2.2
+/RationCardRegister/CustomLogger/obj
+/RationCardRegister/DataAccess/bin/Debug/netcoreapp2.2
+/RationCardRegister/DataAccess/obj
+/RationCardRegister/Delegate/bin/Debug/netcoreapp2.2
+/RationCardRegister/Delegate/obj
+/RationCardRegister/EmailManager/obj
+/RationCardRegister/Helpers/bin/Debug/netcoreapp2.2
+/RationCardRegister/Helpers/obj
+/RationCardRegister/LogManager/obj
+/RationCardRegister/MasterDataManager/obj
+/RationCardRegister/MasterDataWorker/obj
+/RationCardRegister/NetworkManager/obj
+/RationCardRegister/DataProvider/bin/Debug/netcoreapp2.2
+/RationCardRegister/DataProvider/obj
+/RationCardRegister/RationCardRegisterWeb/bin/Debug/netcoreapp2.2
+/RationCardRegister/RationCardRegisterWeb/obj

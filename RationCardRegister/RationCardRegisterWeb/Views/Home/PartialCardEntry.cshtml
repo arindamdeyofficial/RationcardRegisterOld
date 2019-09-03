@@ -1,0 +1,172 @@
+﻿@using Helpers.MasterDataManager.MasterDataBo;
+@using Newtonsoft.Json;
+@using BusinessObject;
+@model RationCardDetail
+@{
+    var hof = @Html.Raw(JsonConvert.SerializeObject(MasterData.Hofs.Data));
+}
+<script>
+    $(function () {
+        $('.DuplicateCheck').blur(function () {
+            var checkBy = $(this).attr('dataDuplicatecheckBy');
+            var checkVal = '';
+            switch (checkBy) {
+                case 'RATIONCARD':
+                    checkVal = $('#cmbCatMasterList option:selected').text() + '-' + $('#txtCardNumber').val();
+                    break;
+                case 'ADHARCARD':
+                    checkVal = $('#txtAdharNumber').val();
+                    break;
+                case 'MOBILENO':
+                    checkVal = $('#txtMobileNumber').val();
+                    break;
+            }
+
+            if ((checkVal != '') && ($('#hdnLastDuplicateCheckVal').val() != checkVal) && ($('#hdnLastDuplicateCheckBy').val() != checkBy)) {
+                $.ajax({
+                    method: 'POST',
+                    url: '/Home/DuplicateCheck',
+                    data: { val: checkVal, checkBy: checkBy },
+                    dataType: 'json',
+
+                }).done(function (data, textStatus, jqXHR) {
+                    if (data != undefined) {
+                        if (!data.isUnique) {
+                            alert(data.finalMsg);
+                        }
+                    }
+                })
+                    .fail(function (jqXHR, textStatus, errorThrown) {
+                        alert("error");
+                    });
+            }
+            $('#hdnLastDuplicateCheckBy').val(checkBy);
+            $('#hdnLastDuplicateCheckVal').val(checkVal);
+        });
+        $('#btnRationCardEntrySubmit').click(function (e) {
+            alert("jbgyg");
+            e.preventDefault();
+            var formData = JSON.stringify($("#RationCardEntryForm").serialize());
+            $.ajax({
+                url: '/Home/SaveRationCardEntry', // url where to submit the request
+                type: "POST", // type of action POST || GET
+                dataType: 'json', // data type
+                data: formData, // post data || get data
+                success: function (result) {
+                    // you can see the result from the console
+                    // tab of the developer tools
+                    console.log(result);
+                },
+                error: function (xhr, resp, text) {
+                    console.log(xhr, resp, text);
+                }
+            });
+        });
+    });
+</script>
+
+<form name="RationCardEntryForm" id="RationCardEntryForm" action="/Home/SaveRationCardEntry">
+    <input type="hidden" value="" id="hdnLastDuplicateCheckBy" />
+    <input type="hidden" value="" id="hdnLastDuplicateCheckVal" />
+    <div>
+        <label>Card Number</label>
+        @{
+            var cats = MasterData.Categories.Data.Select(i => new SelectListItem
+            {
+                Text = i.Cat_Desc,
+                Value = i.Cat_Id,
+                Selected = false
+            });
+            @Html.DropDownList("cmbCatMasterList", cats, "Select Category"
+, new { @id = "cmbCatMasterList", @name = "cmbCatMasterList", @class = "DuplicateCheck", @dataDuplicatecheckBy = "RATIONCARD" });
+        }
+        <input type="number" class="DuplicateCheck" dataDuplicatecheckBy="RATIONCARD" minlength="8" id="txtCardNumber" value="" />
+    </div>
+    <div>
+        <label>Name</label>
+        <input type="text" id="txtName" value="" />
+    </div>
+    <div>
+        <label>Adhar</label>
+        <input type="number" id="txtAdharNumber" value="" class="ValidateAdhar DuplicateCheck" dataDuplicatecheckBy="ADHARCARD" />
+    </div>
+    <div>
+        <label>Mobile</label>
+        <input type="number" maxlength="10" minlength="10" id="txtMobileNumber" class="DuplicateCheck" value="" dataDuplicatecheckBy="MOBILENO" />
+    </div>
+    <div>
+        <label>Head of the Family</label>
+        @{
+            var hofs = MasterData.Hofs.Data.Select(i => new SelectListItem
+            {
+                Text = i.ShowVal,
+                Value = i.Customer_Id,
+                Selected = false
+            });
+            @Html.DropDownList("cmbHofMasterList", hofs, "Select Head of the Family"
+, new { @class = "", @id = "cmbHofMasterList", @name = "cmbHofMasterList" });
+        }
+
+        <label>Relation with HOF</label>
+        @{
+            var relations = MasterData.Relations.Data.Select(i => new SelectListItem
+            {
+                Text = i.Relation,
+                Value = i.Mst_Rel_With_Hof_Id,
+                Selected = false
+            });
+            @Html.DropDownList("cmbHofRelationList", relations, "Select Relation"
+, new { @class = "", @id = "cmbHofRelationList", @name = "cmbHofRelationList" });
+        }
+        <label>Head of the family</label>
+        <label>Active Card : 5</label>
+        <label>Total Card : 10</label>
+        <label>CardNumber: RKSY-II 25687456321</label>
+        <label>Adhar: 1452 7458 1234 1456</label>
+        <label>Mobile: 9845632144</label>
+    </div>
+    <div>
+        <label>Gaurdian Name</label>
+        <input type="text" id="txtGaurdianName" value="" />
+        @{
+            var gaurianrelations = MasterData.Relations.Data.Select(i => new SelectListItem
+            {
+                Text = i.Relation,
+                Value = i.Mst_Rel_With_Hof_Id,
+                Selected = false
+            });
+            @Html.DropDownList("cmbGaurdianRelationList", gaurianrelations, "Select Relation with Gaurdian"
+, new { @class = "", @id = "cmbGaurdianRelationList", @name = "cmbGaurdianRelationList" });
+        }
+    </div>
+    <div>
+        <label>Date Of Birth</label>
+        <input type="date" id="dtDob" value="2019-01-31" />
+        <label>Age: 29</label>
+    </div>
+    <div>
+        <label>Address</label>
+        <input type="text" id="txtAddr1" value="" />
+        <input type="text" id="txtAddr2" value="" />
+        @await Html.PartialAsync("PartialGeoName");
+    </div>
+    <div>
+        <label>Remarks</label>
+        <input type="text" id="txtRemarks" value="" />
+    </div>
+    <div>
+        @{ if (Model.ActiveCard)
+            {
+                <input type="checkbox" id="chkActive" checked />
+                <label>Active since @Model.Card_Created_Date</label>
+            }
+            else
+            {
+                <input type="checkbox" id="chkActive" />
+                <label>InActive since @Model.Card_Created_Date</label>
+            }
+        }
+    </div>
+    <input type="submit" id="btnRationCardEntrySubmit" />
+    <input type="reset" id="btnRationCardEntryReset" />
+</form>

@@ -167,15 +167,14 @@ namespace DataAccess
             return finalMsg;
         }
 
-        public static string DuplicateCheck(string val, string checkBy, out bool isDuplicate, out bool isRecordExists, out bool cardExists, out bool adharExists, out bool mobileNoexists)
+        public static bool DuplicateCheck(string val, string checkBy, out string finalMsg)
         {
             ErrorEnum errType = ErrorEnum.Other;
             string errMsg = string.Empty;
-            bool isSuccess;
-            isDuplicate = isRecordExists = false;
-            string finalMsg = string.Empty;
-            cardExists = adharExists = mobileNoexists = false;
+            bool isSuccess, isRecordExists, cardExists, adharExists, mobileNoexists = false;
+            finalMsg = string.Empty;
             Exception errObj = new Exception();
+            bool isUnique = false;
 
             try
             {
@@ -189,7 +188,7 @@ namespace DataAccess
                     isRecordExists = true;
                     if (!(ds.Tables[1].Rows[0][0].ToString().Contains("SUCCESS")))
                     {
-                        isDuplicate = true;
+                        isUnique = false;
                         foreach (DataRow r in ds.Tables[1].Rows)
                         {
                             finalMsg += r["MSG"].ToString() + Environment.NewLine;
@@ -211,6 +210,7 @@ namespace DataAccess
                     }
                     else
                     {
+                        isUnique = true;
                         switch (checkBy)
                         {
                             case "RATIONCARD":
@@ -232,7 +232,7 @@ namespace DataAccess
             {
                 Logger.LogError(ex);
             }
-            return finalMsg;
+            return isUnique;
         }  
     }
 }

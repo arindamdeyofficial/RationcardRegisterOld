@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
+using BusinessObject;
+using DataAccess;
 using DataAccessSql;
 using Helpers.MasterDataManager;
 using Microsoft.AspNetCore.Authorization;
@@ -26,6 +28,15 @@ namespace RationCardRegisterWeb.Controllers
             MasterDataHelper.ApplicationStartDbFetch();
             MasterDataHelper.FetchMasterData();
             return View();
+        }
+        public JsonResult DuplicateCheck(string val, string checkBy)
+        {
+            bool isUnique = false;
+            string finalMsg = string.Empty;
+            Exception errObj = new Exception();
+
+            DBoperationsManager.DuplicateCheck(val, checkBy, out finalMsg);
+            return new JsonResult(new { isUnique = isUnique, finalMsg = finalMsg });
         }
 
         public IActionResult Privacy()

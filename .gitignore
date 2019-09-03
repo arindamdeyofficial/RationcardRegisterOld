@@ -22,3 +22,12 @@
 /RationCardRegister/DataProvider/obj
 /RationCardRegister/RationCardRegisterWeb/bin/Debug/netcoreapp2.2
 /RationCardRegister/RationCardRegisterWeb/obj
+/RationCardRegister/ConfigurationManager
+/RationCardRegister/RationCardApi
+/RationCardRegister/RatioCardRegisterAngular
+/RationCardRegister/MasterDataWorker
+/RationCardRegister/MasterDataManager
+/RationCardRegister/EmailManager
+/RationCardRegister/Delegate
+/RationCardRegister/BusinessWorker
+/RationCardRegister/BusinessObject

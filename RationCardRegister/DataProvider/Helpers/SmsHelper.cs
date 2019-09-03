@@ -86,8 +86,8 @@ namespace SmsManager
             {
                 _superAdminMobiles = MasterData.Configs.Data.Find(i => i.KeyText.Equals("SuperadminMobileNumber")).ValueText;
             }
-            msg = "Hello " + User.Name + " !" + Environment.NewLine + msg + Environment.NewLine + "- RationcardRegister";
-            return SmsHelper.SendSms(msg, _superAdminMobiles + "," + User.MobileNo + (!string.IsNullOrEmpty(User.MobileNoToNotifyViaSms) ? ("," + User.MobileNoToNotifyViaSms) : ""), out statusMsg);
+            msg = "Hello " + RationCardUser.Name + " !" + Environment.NewLine + msg + Environment.NewLine + "- RationcardRegister";
+            return SmsHelper.SendSms(msg, _superAdminMobiles + "," + RationCardUser.MobileNo + (!string.IsNullOrEmpty(RationCardUser.MobileNoToNotifyViaSms) ? ("," + RationCardUser.MobileNoToNotifyViaSms) : ""), out statusMsg);
         }
         public static bool NotifyAdmin(string msg)
         {
@@ -101,7 +101,7 @@ namespace SmsManager
             {
                 _superAdminMobiles = MasterData.Configs.Data.Find(i => i.KeyText.Equals("SuperadminMobileNumber")).ValueText;
             }
-            msg = "Hello " + User.Name + " !" + Environment.NewLine + msg + Environment.NewLine + "- RationcardRegister";
+            msg = "Hello " + RationCardUser.Name + " !" + Environment.NewLine + msg + Environment.NewLine + "- RationcardRegister";
             return SmsHelper.SendSms(msg, _superAdminMobiles, out statusMsg);
         }
     }

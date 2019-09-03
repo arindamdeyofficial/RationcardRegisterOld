@@ -198,6 +198,22 @@ namespace Businessworker
                 Logger.LogError(ex);
             }
         }
+        public static void ApplicationStartDbFetch()
+        {
+            ErrorEnum errType = ErrorEnum.Other;
+            string errMsg = string.Empty;
+            bool isSuccess = false;
+            Exception errObj = new Exception();
+
+            try
+            {
+                DBoperationsManager.ApplicationStartDbFetch(out errType, out errMsg, out isSuccess);
+            }
+            catch (Exception ex)
+            {
+                Logger.LogError(ex);
+            }
+        }
         public static void FetchCatData(string cat, bool isLastCatId)
         {
             MasterData.CategoryWiseSearchResult.Data.Add(SearchCard("", "", cat));
@@ -215,10 +231,10 @@ namespace Businessworker
             Exception errObj = new Exception();
             isSuccess = false;
 
-            distId = (string.IsNullOrEmpty(distId.Trim())) ? User.DistId : distId;
+            distId = (string.IsNullOrEmpty(distId.Trim())) ? RationCardUser.DistId : distId;
             if (operation == "CLONE")
             {
-                cloneFromDistId = (string.IsNullOrEmpty(cloneFromDistId.Trim())) ? User.DistId : cloneFromDistId;
+                cloneFromDistId = (string.IsNullOrEmpty(cloneFromDistId.Trim())) ? RationCardUser.DistId : cloneFromDistId;
             }
             try
             {

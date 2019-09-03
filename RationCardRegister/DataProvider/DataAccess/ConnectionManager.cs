@@ -8,7 +8,11 @@ namespace DataAccessSql
 {
     public static class ConnectionManager
     {
-        public static string _connStr = string.Empty;
+        private static string _connStrAzure = string.Empty;
+        public static void SetConnectionString(string constr)
+        {
+            _connStrAzure = constr;
+        }
         public static DataSet Exec(string procName, List<SqlParameter> sqlParams, out ErrorEnum errType, out string errMsg, out bool isSuccess, out Exception errObj)
         {
             isSuccess = false;
@@ -17,7 +21,7 @@ namespace DataAccessSql
             errType = ErrorEnum.Other;
             int count = 0;
             DataSet ds = new DataSet();
-            using (var con = new SqlConnection(_connStr))
+            using (var con = new SqlConnection(_connStrAzure))
             {
                 try
                 {

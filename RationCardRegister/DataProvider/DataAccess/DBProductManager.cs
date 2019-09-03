@@ -29,7 +29,7 @@ namespace DataAccess
             {
                 string prdXml = prd.SerializeXml<Product>();
                 List<SqlParameter> sqlParams = new List<SqlParameter>();
-                sqlParams.Add(new SqlParameter { ParameterName = "@distId", SqlDbType = SqlDbType.VarChar, Value = User.DistId });
+                sqlParams.Add(new SqlParameter { ParameterName = "@distId", SqlDbType = SqlDbType.VarChar, Value = RationCardUser.DistId });
                 sqlParams.Add(new SqlParameter { ParameterName = "@prdData", SqlDbType = SqlDbType.Xml, Value = prdXml });
                 sqlParams.Add(new SqlParameter { ParameterName = "@action", SqlDbType = SqlDbType.VarChar, Value = action });
 
@@ -104,7 +104,7 @@ namespace DataAccess
             try
             {
                 List<SqlParameter> sqlParams = new List<SqlParameter>();
-                sqlParams.Add(new SqlParameter { ParameterName = "@distId", SqlDbType = SqlDbType.VarChar, Value = User.DistId });
+                sqlParams.Add(new SqlParameter { ParameterName = "@distId", SqlDbType = SqlDbType.VarChar, Value = RationCardUser.DistId });
                 sqlParams.Add(new SqlParameter { ParameterName = "@barCode", SqlDbType = SqlDbType.VarChar, Value = barCode });
                 sqlParams.Add(new SqlParameter { ParameterName = "@articleCode", SqlDbType = SqlDbType.VarChar, Value = articleCode });
                 sqlParams.Add(new SqlParameter { ParameterName = "@prdName", SqlDbType = SqlDbType.VarChar, Value = prdName });
@@ -152,7 +152,7 @@ namespace DataAccess
             try
             {
                 List<SqlParameter> sqlParams = new List<SqlParameter>();
-                sqlParams.Add(new SqlParameter { ParameterName = "@distId", SqlDbType = SqlDbType.VarChar, Value = User.DistId });
+                sqlParams.Add(new SqlParameter { ParameterName = "@distId", SqlDbType = SqlDbType.VarChar, Value = RationCardUser.DistId });
                 sqlParams.Add(new SqlParameter { ParameterName = "@table", SqlDbType = SqlDbType.VarChar, Value = "Product_Master" });
                 sqlParams.Add(new SqlParameter { ParameterName = "@Id", SqlDbType = SqlDbType.VarChar, Value = prdId });
                 sqlParams.Add(new SqlParameter { ParameterName = "@action", SqlDbType = SqlDbType.VarChar, Value = "DELETE" });
@@ -183,7 +183,7 @@ namespace DataAccess
             try
             {
                 List<SqlParameter> sqlParams = new List<SqlParameter>();
-                sqlParams.Add(new SqlParameter { ParameterName = "@distId", SqlDbType = SqlDbType.VarChar, Value = User.DistId });
+                sqlParams.Add(new SqlParameter { ParameterName = "@distId", SqlDbType = SqlDbType.VarChar, Value = RationCardUser.DistId });
                 sqlParams.Add(new SqlParameter { ParameterName = "@dtFrom", SqlDbType = SqlDbType.DateTime, Value = DateTime.Parse("01-01-1900").ToString("MM-dd-yyyy HH:mm:ss") });
                 sqlParams.Add(new SqlParameter { ParameterName = "@dtTo", SqlDbType = SqlDbType.DateTime, Value = DateTime.Now.ToString("dd-MM-yyyy HH:mm:ss") });
                 sqlParams.Add(new SqlParameter { ParameterName = "@operation", SqlDbType = SqlDbType.VarChar, Value = string.Empty });

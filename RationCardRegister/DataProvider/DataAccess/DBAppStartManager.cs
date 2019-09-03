@@ -43,27 +43,27 @@ namespace DataAccess
                     MasterDataHelper.AssignRoleData(tmpDs);
                     tmpDs.Reset();
 
-                    User.LoginId = ds.Tables[0].Rows[0]["Dist_Login"].ToString();
-                    User.EmailId = ds.Tables[0].Rows[0]["Dist_Email"].ToString();
-                    User.MacId = Network.GetActiveMACAddress();
-                    User.AllowedMacId = ds.Tables[0].Rows[0]["Dist_Mac_Id"].ToString();
-                    User.Name = ds.Tables[0].Rows[0]["Dist_Name"].ToString();
-                    User.MobileNo = ds.Tables[0].Rows[0]["Dist_Mobile_No"].ToString();
-                    User.DistId = ds.Tables[0].Rows[0]["Dist_Id"].ToString();
-                    User.Address = ds.Tables[0].Rows[0]["Dist_Address"].ToString();
-                    User.ProfilePicPath = ds.Tables[0].Rows[0]["Dist_Profile_Pic_Path"].ToString();
-                    User.Roles = MasterData.Roles.Data;
-                    User.LiscenceNo = ds.Tables[0].Rows[0]["Dist_Fps_Liscence_No"].ToString();
-                    User.MrShopNo = ds.Tables[0].Rows[0]["Dist_Mr_Shop_No"].ToString();
-                    User.FpsCode = ds.Tables[0].Rows[0]["Dist_Fps_Code"].ToString();
-                    User.IsSuperadmin = ds.Tables[0].Rows[0]["IsSuperAdmin"].ToString() == "True";
-                    User.Password = ds.Tables[0].Rows[0]["Dist_Password"].ToString();
-                    User.MobileNoToNotifyViaSms = ((ds.Tables[0].Rows[0]["MobileNoToNotifyViaSms"].ToString() != "0") ? ds.Tables[0].Rows[0]["MobileNoToNotifyViaSms"].ToString() : "");
-                    User.EmailToNotify = ds.Tables[0].Rows[0]["EmailToNotify"].ToString();
+                    RationCardUser.LoginId = ds.Tables[0].Rows[0]["Dist_Login"].ToString();
+                    RationCardUser.EmailId = ds.Tables[0].Rows[0]["Dist_Email"].ToString();
+                    RationCardUser.MacId = Network.GetActiveMACAddress();
+                    RationCardUser.AllowedMacId = ds.Tables[0].Rows[0]["Dist_Mac_Id"].ToString();
+                    RationCardUser.Name = ds.Tables[0].Rows[0]["Dist_Name"].ToString();
+                    RationCardUser.MobileNo = ds.Tables[0].Rows[0]["Dist_Mobile_No"].ToString();
+                    RationCardUser.DistId = ds.Tables[0].Rows[0]["Dist_Id"].ToString();
+                    RationCardUser.Address = ds.Tables[0].Rows[0]["Dist_Address"].ToString();
+                    RationCardUser.ProfilePicPath = ds.Tables[0].Rows[0]["Dist_Profile_Pic_Path"].ToString();
+                    RationCardUser.Roles = MasterData.Roles.Data;
+                    RationCardUser.LiscenceNo = ds.Tables[0].Rows[0]["Dist_Fps_Liscence_No"].ToString();
+                    RationCardUser.MrShopNo = ds.Tables[0].Rows[0]["Dist_Mr_Shop_No"].ToString();
+                    RationCardUser.FpsCode = ds.Tables[0].Rows[0]["Dist_Fps_Code"].ToString();
+                    RationCardUser.IsSuperadmin = ds.Tables[0].Rows[0]["IsSuperAdmin"].ToString() == "True";
+                    RationCardUser.Password = ds.Tables[0].Rows[0]["Dist_Password"].ToString();
+                    RationCardUser.MobileNoToNotifyViaSms = ((ds.Tables[0].Rows[0]["MobileNoToNotifyViaSms"].ToString() != "0") ? ds.Tables[0].Rows[0]["MobileNoToNotifyViaSms"].ToString() : "");
+                    RationCardUser.EmailToNotify = ds.Tables[0].Rows[0]["EmailToNotify"].ToString();
 
-                    Logger.LogInfo("LoginId: " + User.LoginId + " EmailId: " + User.EmailId + " MacId: " + User.MacId + " AllowedMacId: " + User.AllowedMacId + " Name: " + User.Name
-                        + " MobileNo: " + User.MobileNo + " DistId: " + User.DistId + " Address: " + User.Address + " ProfilePicPath: " + User.ProfilePicPath + " Role Count: " + User.Roles.Count
-                        + " LiscenceNo: " + User.LiscenceNo + " MrShopNo: " + User.MrShopNo + " FpsCode: " + User.FpsCode);
+                    Logger.LogInfo("LoginId: " + RationCardUser.LoginId + " EmailId: " + RationCardUser.EmailId + " MacId: " + RationCardUser.MacId + " AllowedMacId: " + RationCardUser.AllowedMacId + " Name: " + RationCardUser.Name
+                        + " MobileNo: " + RationCardUser.MobileNo + " DistId: " + RationCardUser.DistId + " Address: " + RationCardUser.Address + " ProfilePicPath: " + RationCardUser.ProfilePicPath + " Role Count: " + RationCardUser.Roles.Count
+                        + " LiscenceNo: " + RationCardUser.LiscenceNo + " MrShopNo: " + RationCardUser.MrShopNo + " FpsCode: " + RationCardUser.FpsCode);
                     isSuccess = true;
                 } 
             }

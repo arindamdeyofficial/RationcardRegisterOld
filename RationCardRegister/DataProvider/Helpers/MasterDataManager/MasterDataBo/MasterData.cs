@@ -24,6 +24,9 @@ namespace Helpers.MasterDataManager.MasterDataBo
         public static int TotalHofCount { get; set; }
         public static int ActiveHofCount { get; set; }
         public static bool MasterDataFetchComplete { get; set; }
+        public static CountryMasterData Countries { get; set; }
+        public static StateMasterData States { get; set; }
+        public static CityMasterData Cities { get; set; }
         public static DateTime DataFetchTime { get; set; }
     }
 }

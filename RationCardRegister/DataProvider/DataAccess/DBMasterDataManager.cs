@@ -24,7 +24,7 @@ namespace DataAccess
             {
                 List<SqlParameter> sqlParams = new List<SqlParameter>();
 
-                sqlParams.Add(new SqlParameter { ParameterName = "@distId", SqlDbType = SqlDbType.VarChar, Value = User.DistId });
+                sqlParams.Add(new SqlParameter { ParameterName = "@distId", SqlDbType = SqlDbType.VarChar, Value = RationCardUser.DistId });
                 sqlParams.Add(new SqlParameter { ParameterName = "@searchBy", SqlDbType = SqlDbType.VarChar, Value = searchBy });
                 sqlParams.Add(new SqlParameter { ParameterName = "@searchText", SqlDbType = SqlDbType.VarChar, Value = searchText });
                 sqlParams.Add(new SqlParameter { ParameterName = "@searchCatId", SqlDbType = SqlDbType.VarChar, Value = (string.IsNullOrEmpty(searchCatId) ? DBNull.Value.ToString() : searchCatId) });
@@ -58,7 +58,7 @@ namespace DataAccess
             try
             {
                 List<SqlParameter> sqlParams = new List<SqlParameter>();
-                sqlParams.Add(new SqlParameter { ParameterName = "@distId", SqlDbType = SqlDbType.VarChar, Value = User.DistId });
+                sqlParams.Add(new SqlParameter { ParameterName = "@distId", SqlDbType = SqlDbType.VarChar, Value = RationCardUser.DistId });
                 sqlParams.Add(new SqlParameter { ParameterName = "@Id", SqlDbType = SqlDbType.VarChar, Value = custId });
 
                 ds = ConnectionManager.Exec("Sp_GetCardCount", sqlParams, out errType, out errMsg, out isSuccess, out errObj);
@@ -81,7 +81,7 @@ namespace DataAccess
             try
             {
                 List<SqlParameter> sqlParams = new List<SqlParameter>();
-                sqlParams.Add(new SqlParameter { ParameterName = "@distId", SqlDbType = SqlDbType.VarChar, Value = User.DistId });
+                sqlParams.Add(new SqlParameter { ParameterName = "@distId", SqlDbType = SqlDbType.VarChar, Value = RationCardUser.DistId });
                 ds = ConnectionManager.Exec("Sp_GetMasterData", sqlParams, out errType, out errMsg, out isSuccess, out errObj);
             }
             catch (Exception ex)
@@ -99,10 +99,10 @@ namespace DataAccess
             errObj = new Exception();
             DataSet ds = new DataSet();
 
-            distId = (string.IsNullOrEmpty(distId.Trim())) ? User.DistId : distId;
+            distId = (string.IsNullOrEmpty(distId.Trim())) ? RationCardUser.DistId : distId;
             if (operation == "CLONE")
             {
-                cloneFromDistId = (string.IsNullOrEmpty(cloneFromDistId.Trim())) ? User.DistId : cloneFromDistId;
+                cloneFromDistId = (string.IsNullOrEmpty(cloneFromDistId.Trim())) ? RationCardUser.DistId : cloneFromDistId;
             }
             try
             {
@@ -133,7 +133,7 @@ namespace DataAccess
             try
             {
                 List<SqlParameter> sqlParams = new List<SqlParameter>();
-                sqlParams.Add(new SqlParameter { ParameterName = "@distId", SqlDbType = SqlDbType.VarChar, Value = User.DistId });
+                sqlParams.Add(new SqlParameter { ParameterName = "@distId", SqlDbType = SqlDbType.VarChar, Value = RationCardUser.DistId });
                 ds = ConnectionManager.Exec("Sp_GetHofMasterData", sqlParams, out errType, out errMsg, out isSuccess, out errObj);
             }
             catch (Exception ex)
@@ -154,7 +154,7 @@ namespace DataAccess
             try
             {
                 List<SqlParameter> sqlParams = new List<SqlParameter>();
-                sqlParams.Add(new SqlParameter { ParameterName = "@distId", SqlDbType = SqlDbType.VarChar, Value = User.DistId });
+                sqlParams.Add(new SqlParameter { ParameterName = "@distId", SqlDbType = SqlDbType.VarChar, Value = RationCardUser.DistId });
                 ds = ConnectionManager.Exec("Sp_GetCategoryMasterData", sqlParams, out errType, out errMsg, out isSuccess, out errObj);
             }
             catch (Exception ex)
@@ -175,7 +175,7 @@ namespace DataAccess
             try
             {
                 List<SqlParameter> sqlParams = new List<SqlParameter>();
-                sqlParams.Add(new SqlParameter { ParameterName = "@distId", SqlDbType = SqlDbType.VarChar, Value = User.DistId });
+                sqlParams.Add(new SqlParameter { ParameterName = "@distId", SqlDbType = SqlDbType.VarChar, Value = RationCardUser.DistId });
                 ds = ConnectionManager.Exec("Sp_CardsInThisFortnight", sqlParams, out errType, out errMsg, out isSuccess, out errObj);
             }
             catch (Exception ex)
@@ -195,7 +195,7 @@ namespace DataAccess
             try
             {
                 List<SqlParameter> sqlParams = new List<SqlParameter>();
-                sqlParams.Add(new SqlParameter { ParameterName = "@distId", SqlDbType = SqlDbType.VarChar, Value = User.DistId });
+                sqlParams.Add(new SqlParameter { ParameterName = "@distId", SqlDbType = SqlDbType.VarChar, Value = RationCardUser.DistId });
                 ds = ConnectionManager.Exec("Sp_GetRelationMasterData", sqlParams, out errType, out errMsg, out isSuccess, out errObj);
             }
             catch (Exception ex)
@@ -215,7 +215,7 @@ namespace DataAccess
             try
             {
                 List<SqlParameter> sqlParams = new List<SqlParameter>();
-                sqlParams.Add(new SqlParameter { ParameterName = "@distId", SqlDbType = SqlDbType.VarChar, Value = User.DistId });
+                sqlParams.Add(new SqlParameter { ParameterName = "@distId", SqlDbType = SqlDbType.VarChar, Value = RationCardUser.DistId });
                 ds = ConnectionManager.Exec("Sp_GetProductMasterData", sqlParams, out errType, out errMsg, out isSuccess, out errObj);
             }
             catch (Exception ex)
@@ -235,7 +235,7 @@ namespace DataAccess
             try
             {
                 List<SqlParameter> sqlParams = new List<SqlParameter>();
-                sqlParams.Add(new SqlParameter { ParameterName = "@distId", SqlDbType = SqlDbType.VarChar, Value = User.DistId });
+                sqlParams.Add(new SqlParameter { ParameterName = "@distId", SqlDbType = SqlDbType.VarChar, Value = RationCardUser.DistId });
                 ds = ConnectionManager.Exec("Sp_GetUomMasterData", sqlParams, out errType, out errMsg, out isSuccess, out errObj);
             }
             catch (Exception ex)
@@ -255,7 +255,7 @@ namespace DataAccess
             try
             {
                 List<SqlParameter> sqlParams = new List<SqlParameter>();
-                sqlParams.Add(new SqlParameter { ParameterName = "@distId", SqlDbType = SqlDbType.VarChar, Value = User.DistId });
+                sqlParams.Add(new SqlParameter { ParameterName = "@distId", SqlDbType = SqlDbType.VarChar, Value = RationCardUser.DistId });
                 ds = ConnectionManager.Exec("Sp_GetDeptMasterData", sqlParams, out errType, out errMsg, out isSuccess, out errObj);
             }
             catch (Exception ex)
@@ -275,7 +275,7 @@ namespace DataAccess
             try
             {
                 List<SqlParameter> sqlParams = new List<SqlParameter>();
-                sqlParams.Add(new SqlParameter { ParameterName = "@distId", SqlDbType = SqlDbType.VarChar, Value = User.DistId });
+                sqlParams.Add(new SqlParameter { ParameterName = "@distId", SqlDbType = SqlDbType.VarChar, Value = RationCardUser.DistId });
                 ds = ConnectionManager.Exec("Sp_GetSubDeptMasterData", sqlParams, out errType, out errMsg, out isSuccess, out errObj);
             }
             catch (Exception ex)
@@ -295,7 +295,7 @@ namespace DataAccess
             try
             {
                 List<SqlParameter> sqlParams = new List<SqlParameter>();
-                sqlParams.Add(new SqlParameter { ParameterName = "@distId", SqlDbType = SqlDbType.VarChar, Value = User.DistId });
+                sqlParams.Add(new SqlParameter { ParameterName = "@distId", SqlDbType = SqlDbType.VarChar, Value = RationCardUser.DistId });
                 ds = ConnectionManager.Exec("Sp_GetClassMasterData", sqlParams, out errType, out errMsg, out isSuccess, out errObj);
             }
             catch (Exception ex)
@@ -316,7 +316,7 @@ namespace DataAccess
             try
             {
                 List<SqlParameter> sqlParams = new List<SqlParameter>();
-                sqlParams.Add(new SqlParameter { ParameterName = "@distId", SqlDbType = SqlDbType.VarChar, Value = User.DistId });
+                sqlParams.Add(new SqlParameter { ParameterName = "@distId", SqlDbType = SqlDbType.VarChar, Value = RationCardUser.DistId });
                 ds = ConnectionManager.Exec("Sp_GetSubClassMasterData", sqlParams, out errType, out errMsg, out isSuccess, out errObj);
             }
             catch (Exception ex)
@@ -336,7 +336,7 @@ namespace DataAccess
             try
             {
                 List<SqlParameter> sqlParams = new List<SqlParameter>();
-                sqlParams.Add(new SqlParameter { ParameterName = "@distId", SqlDbType = SqlDbType.VarChar, Value = User.DistId });
+                sqlParams.Add(new SqlParameter { ParameterName = "@distId", SqlDbType = SqlDbType.VarChar, Value = RationCardUser.DistId });
                 ds = ConnectionManager.Exec("Sp_GetMcMasterData", sqlParams, out errType, out errMsg, out isSuccess, out errObj);
             }
             catch (Exception ex)
@@ -356,7 +356,7 @@ namespace DataAccess
             try
             {
                 List<SqlParameter> sqlParams = new List<SqlParameter>();
-                sqlParams.Add(new SqlParameter { ParameterName = "@distId", SqlDbType = SqlDbType.VarChar, Value = User.DistId });
+                sqlParams.Add(new SqlParameter { ParameterName = "@distId", SqlDbType = SqlDbType.VarChar, Value = RationCardUser.DistId });
                 ds = ConnectionManager.Exec("Sp_GetBrandMasterData", sqlParams, out errType, out errMsg, out isSuccess, out errObj);
             }
             catch (Exception ex)
@@ -376,7 +376,7 @@ namespace DataAccess
             try
             {
                 List<SqlParameter> sqlParams = new List<SqlParameter>();
-                sqlParams.Add(new SqlParameter { ParameterName = "@distId", SqlDbType = SqlDbType.VarChar, Value = User.DistId });
+                sqlParams.Add(new SqlParameter { ParameterName = "@distId", SqlDbType = SqlDbType.VarChar, Value = RationCardUser.DistId });
                 ds = ConnectionManager.Exec("Sp_GetRoleMasterData", sqlParams, out errType, out errMsg, out isSuccess, out errObj);
             }
             catch (Exception ex)

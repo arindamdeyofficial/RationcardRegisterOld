@@ -1,0 +1,775 @@
+2019-09-02 13:04:22.308 +05:30 [INF] _mac.IpAddress192.168.1.100
+2019-09-02 13:04:23.620 +05:30 [INF] Mac id: D4258BF47531 ipAddr: 192.168.1.100 Gateway: 192.168.1.1Public Ip: 103.74.141.77
+2019-09-02 13:05:01.448 +05:30 [INF] LoginId: biplabhome@gmail.com EmailId: biplabhome@gmail.com MacId: D4258BF47531 AllowedMacId: D4258BF47531 Name: Arindam Dey MobileNo: 9830609366 DistId: 2 Address: 102, Gandi Para Road East, Subhasgram,Kolkara 700147 ProfilePicPath: \image\arindamdey.png Role Count: 0 LiscenceNo: admin MrShopNo: admin FpsCode: admin
+2019-09-02 13:05:20.255 +05:30 [INF] 
+masterdata fetch completed on 02-09-2019 13:05:20
+2019-09-02 13:05:26.570 +05:30 [INF] 
+Search result for catid 2 fetch complete on 02-09-2019 13:05:26
+2019-09-02 13:06:01.226 +05:30 [INF] _mac.IpAddress192.168.1.100
+2019-09-02 13:06:02.522 +05:30 [INF] Mac id: D4258BF47531 ipAddr: 192.168.1.100 Gateway: 192.168.1.1Public Ip: 103.74.141.77
+2019-09-02 13:06:04.163 +05:30 [INF] LoginId: biplabhome@gmail.com EmailId: biplabhome@gmail.com MacId: D4258BF47531 AllowedMacId: D4258BF47531 Name: Arindam Dey MobileNo: 9830609366 DistId: 2 Address: 102, Gandi Para Road East, Subhasgram,Kolkara 700147 ProfilePicPath: \image\arindamdey.png Role Count: 0 LiscenceNo: admin MrShopNo: admin FpsCode: admin
+2019-09-02 13:06:13.846 +05:30 [INF] 
+masterdata fetch completed on 02-09-2019 13:06:13
+2019-09-02 13:06:25.883 +05:30 [INF] 
+Search result for catid 5 fetch complete on 02-09-2019 13:06:25
+2019-09-02 13:06:35.220 +05:30 [INF] 
+Search result for catid 4 fetch complete on 02-09-2019 13:06:35
+2019-09-02 13:06:35.221 +05:30 [INF] 
+Search result for catid 2 fetch complete on 02-09-2019 13:06:35
+2019-09-02 13:06:37.636 +05:30 [INF] 
+Search result for catid 3 fetch complete on 02-09-2019 13:06:37
+2019-09-02 13:06:39.266 +05:30 [INF] 
+Search result for catid 1 fetch complete on 02-09-2019 13:06:39
+2019-09-02 13:09:11.676 +05:30 [INF] _mac.IpAddress192.168.1.100
+2019-09-02 13:09:12.957 +05:30 [INF] Mac id: D4258BF47531 ipAddr: 192.168.1.100 Gateway: 192.168.1.1Public Ip: 103.74.141.77
+2019-09-02 13:09:14.622 +05:30 [INF] LoginId: biplabhome@gmail.com EmailId: biplabhome@gmail.com MacId: D4258BF47531 AllowedMacId: D4258BF47531 Name: Arindam Dey MobileNo: 9830609366 DistId: 2 Address: 102, Gandi Para Road East, Subhasgram,Kolkara 700147 ProfilePicPath: \image\arindamdey.png Role Count: 0 LiscenceNo: admin MrShopNo: admin FpsCode: admin
+2019-09-02 13:27:03.155 +05:30 [INF] _mac.IpAddress192.168.1.100
+2019-09-02 13:27:04.600 +05:30 [INF] Mac id: D4258BF47531 ipAddr: 192.168.1.100 Gateway: 192.168.1.1Public Ip: 103.74.141.77
+2019-09-02 13:27:06.356 +05:30 [INF] LoginId: biplabhome@gmail.com EmailId: biplabhome@gmail.com MacId: D4258BF47531 AllowedMacId: D4258BF47531 Name: Arindam Dey MobileNo: 9830609366 DistId: 2 Address: 102, Gandi Para Road East, Subhasgram,Kolkara 700147 ProfilePicPath: \image\arindamdey.png Role Count: 0 LiscenceNo: admin MrShopNo: admin FpsCode: admin
+2019-09-02 13:28:01.015 +05:30 [INF] _mac.IpAddress192.168.1.100
+2019-09-02 13:28:02.420 +05:30 [INF] Mac id: D4258BF47531 ipAddr: 192.168.1.100 Gateway: 192.168.1.1Public Ip: 103.74.141.77
+2019-09-02 13:28:04.154 +05:30 [INF] LoginId: biplabhome@gmail.com EmailId: biplabhome@gmail.com MacId: D4258BF47531 AllowedMacId: D4258BF47531 Name: Arindam Dey MobileNo: 9830609366 DistId: 2 Address: 102, Gandi Para Road East, Subhasgram,Kolkara 700147 ProfilePicPath: \image\arindamdey.png Role Count: 0 LiscenceNo: admin MrShopNo: admin FpsCode: admin
+2019-09-02 13:28:41.855 +05:30 [INF] _mac.IpAddress192.168.1.100
+2019-09-02 13:28:43.075 +05:30 [INF] Mac id: D4258BF47531 ipAddr: 192.168.1.100 Gateway: 192.168.1.1Public Ip: 103.74.141.77
+2019-09-02 13:28:44.727 +05:30 [INF] LoginId: biplabhome@gmail.com EmailId: biplabhome@gmail.com MacId: D4258BF47531 AllowedMacId: D4258BF47531 Name: Arindam Dey MobileNo: 9830609366 DistId: 2 Address: 102, Gandi Para Road East, Subhasgram,Kolkara 700147 ProfilePicPath: \image\arindamdey.png Role Count: 0 LiscenceNo: admin MrShopNo: admin FpsCode: admin
+2019-09-02 13:29:29.616 +05:30 [INF] _mac.IpAddress192.168.1.100
+2019-09-02 13:29:30.984 +05:30 [INF] Mac id: D4258BF47531 ipAddr: 192.168.1.100 Gateway: 192.168.1.1Public Ip: 103.74.141.77
+2019-09-02 13:29:32.719 +05:30 [INF] LoginId: biplabhome@gmail.com EmailId: biplabhome@gmail.com MacId: D4258BF47531 AllowedMacId: D4258BF47531 Name: Arindam Dey MobileNo: 9830609366 DistId: 2 Address: 102, Gandi Para Road East, Subhasgram,Kolkara 700147 ProfilePicPath: \image\arindamdey.png Role Count: 0 LiscenceNo: admin MrShopNo: admin FpsCode: admin
+2019-09-02 13:29:49.748 +05:30 [INF] _mac.IpAddress192.168.1.100
+2019-09-02 13:29:50.954 +05:30 [INF] Mac id: D4258BF47531 ipAddr: 192.168.1.100 Gateway: 192.168.1.1Public Ip: 103.74.141.77
+2019-09-02 13:29:52.610 +05:30 [INF] LoginId: biplabhome@gmail.com EmailId: biplabhome@gmail.com MacId: D4258BF47531 AllowedMacId: D4258BF47531 Name: Arindam Dey MobileNo: 9830609366 DistId: 2 Address: 102, Gandi Para Road East, Subhasgram,Kolkara 700147 ProfilePicPath: \image\arindamdey.png Role Count: 0 LiscenceNo: admin MrShopNo: admin FpsCode: admin
+2019-09-02 13:30:30.385 +05:30 [INF] _mac.IpAddress192.168.1.100
+2019-09-02 13:30:31.591 +05:30 [INF] Mac id: D4258BF47531 ipAddr: 192.168.1.100 Gateway: 192.168.1.1Public Ip: 103.74.141.77
+2019-09-02 13:30:33.205 +05:30 [INF] LoginId: biplabhome@gmail.com EmailId: biplabhome@gmail.com MacId: D4258BF47531 AllowedMacId: D4258BF47531 Name: Arindam Dey MobileNo: 9830609366 DistId: 2 Address: 102, Gandi Para Road East, Subhasgram,Kolkara 700147 ProfilePicPath: \image\arindamdey.png Role Count: 0 LiscenceNo: admin MrShopNo: admin FpsCode: admin
+2019-09-02 13:30:41.889 +05:30 [INF] 
+masterdata fetch completed on 02-09-2019 13:30:41
+2019-09-02 13:30:42.162 +05:30 [INF] 
+Search result for catid 2 fetch complete on 02-09-2019 13:30:42
+2019-09-02 13:30:42.435 +05:30 [INF] 
+Search result for catid 1 fetch complete on 02-09-2019 13:30:42
+2019-09-02 13:30:42.697 +05:30 [INF] 
+Search result for catid 4 fetch complete on 02-09-2019 13:30:42
+2019-09-02 13:30:42.953 +05:30 [INF] 
+Search result for catid 5 fetch complete on 02-09-2019 13:30:42
+2019-09-02 13:30:43.479 +05:30 [INF] 
+Search result for catid 3 fetch complete on 02-09-2019 13:30:43
+2019-09-02 13:32:02.815 +05:30 [INF] _mac.IpAddress192.168.1.100
+2019-09-02 13:32:04.041 +05:30 [INF] Mac id: D4258BF47531 ipAddr: 192.168.1.100 Gateway: 192.168.1.1Public Ip: 103.74.141.77
+2019-09-02 13:32:05.743 +05:30 [INF] LoginId: biplabhome@gmail.com EmailId: biplabhome@gmail.com MacId: D4258BF47531 AllowedMacId: D4258BF47531 Name: Arindam Dey MobileNo: 9830609366 DistId: 2 Address: 102, Gandi Para Road East, Subhasgram,Kolkara 700147 ProfilePicPath: \image\arindamdey.png Role Count: 0 LiscenceNo: admin MrShopNo: admin FpsCode: admin
+2019-09-02 13:32:06.085 +05:30 [INF] 
+masterdata fetch completed on 02-09-2019 13:32:06
+2019-09-02 13:32:06.360 +05:30 [INF] 
+Search result for catid 4 fetch complete on 02-09-2019 13:32:06
+2019-09-02 13:32:06.628 +05:30 [INF] 
+Search result for catid 1 fetch complete on 02-09-2019 13:32:06
+2019-09-02 13:32:06.877 +05:30 [INF] 
+Search result for catid 2 fetch complete on 02-09-2019 13:32:06
+2019-09-02 13:32:07.132 +05:30 [INF] 
+Search result for catid 5 fetch complete on 02-09-2019 13:32:07
+2019-09-02 13:32:07.783 +05:30 [INF] 
+Search result for catid 3 fetch complete on 02-09-2019 13:32:07
+2019-09-02 13:34:42.560 +05:30 [INF] Mac id: D4258BF47531 ipAddr: 192.168.1.100 Gateway: 192.168.1.1Public Ip: 103.74.141.77
+2019-09-02 13:34:42.852 +05:30 [INF] LoginId: biplabhome@gmail.com EmailId: biplabhome@gmail.com MacId: D4258BF47531 AllowedMacId: D4258BF47531 Name: Arindam Dey MobileNo: 9830609366 DistId: 2 Address: 102, Gandi Para Road East, Subhasgram,Kolkara 700147 ProfilePicPath: \image\arindamdey.png Role Count: 0 LiscenceNo: admin MrShopNo: admin FpsCode: admin
+2019-09-02 13:34:43.251 +05:30 [INF] 
+masterdata fetch completed on 02-09-2019 13:34:43
+2019-09-02 13:34:43.493 +05:30 [INF] 
+Search result for catid 1 fetch complete on 02-09-2019 13:34:43
+2019-09-02 13:34:43.499 +05:30 [INF] 
+Search result for catid 2 fetch complete on 02-09-2019 13:34:43
+2019-09-02 13:34:43.745 +05:30 [INF] 
+Search result for catid 4 fetch complete on 02-09-2019 13:34:43
+2019-09-02 13:34:43.756 +05:30 [INF] 
+Search result for catid 5 fetch complete on 02-09-2019 13:34:43
+2019-09-02 13:34:44.811 +05:30 [INF] 
+Search result for catid 3 fetch complete on 02-09-2019 13:34:44
+2019-09-02 14:29:05.577 +05:30 [INF] _mac.IpAddress192.168.1.100
+2019-09-02 14:29:06.800 +05:30 [INF] Mac id: D4258BF47531 ipAddr: 192.168.1.100 Gateway: 192.168.1.1Public Ip: 103.74.141.77
+2019-09-02 14:29:08.524 +05:30 [INF] LoginId: biplabhome@gmail.com EmailId: biplabhome@gmail.com MacId: D4258BF47531 AllowedMacId: D4258BF47531 Name: Arindam Dey MobileNo: 9830609366 DistId: 2 Address: 102, Gandi Para Road East, Subhasgram,Kolkara 700147 ProfilePicPath: \image\arindamdey.png Role Count: 0 LiscenceNo: admin MrShopNo: admin FpsCode: admin
+2019-09-02 14:29:08.851 +05:30 [INF] 
+masterdata fetch completed on 02-09-2019 14:29:08
+2019-09-02 14:32:23.458 +05:30 [INF] _mac.IpAddress192.168.1.100
+2019-09-02 14:32:24.609 +05:30 [INF] Mac id: D4258BF47531 ipAddr: 192.168.1.100 Gateway: 192.168.1.1Public Ip: 103.74.141.77
+2019-09-02 14:32:26.340 +05:30 [INF] LoginId: biplabhome@gmail.com EmailId: biplabhome@gmail.com MacId: D4258BF47531 AllowedMacId: D4258BF47531 Name: Arindam Dey MobileNo: 9830609366 DistId: 2 Address: 102, Gandi Para Road East, Subhasgram,Kolkara 700147 ProfilePicPath: \image\arindamdey.png Role Count: 0 LiscenceNo: admin MrShopNo: admin FpsCode: admin
+2019-09-02 14:32:26.666 +05:30 [INF] 
+masterdata fetch completed on 02-09-2019 14:32:26
+2019-09-02 14:32:26.954 +05:30 [INF] 
+Search result for catid 1 fetch complete on 02-09-2019 14:32:26
+2019-09-02 14:32:27.227 +05:30 [INF] 
+Search result for catid 2 fetch complete on 02-09-2019 14:32:27
+2019-09-02 14:32:27.497 +05:30 [INF] 
+Search result for catid 3 fetch complete on 02-09-2019 14:32:27
+2019-09-02 14:32:27.757 +05:30 [INF] 
+Search result for catid 4 fetch complete on 02-09-2019 14:32:27
+2019-09-02 14:32:28.265 +05:30 [INF] 
+Search result for catid 5 fetch complete on 02-09-2019 14:32:28
+2019-09-02 14:33:16.766 +05:30 [INF] Mac id: D4258BF47531 ipAddr: 192.168.1.100 Gateway: 192.168.1.1Public Ip: 103.74.141.77
+2019-09-02 14:33:17.030 +05:30 [INF] LoginId: biplabhome@gmail.com EmailId: biplabhome@gmail.com MacId: D4258BF47531 AllowedMacId: D4258BF47531 Name: Arindam Dey MobileNo: 9830609366 DistId: 2 Address: 102, Gandi Para Road East, Subhasgram,Kolkara 700147 ProfilePicPath: \image\arindamdey.png Role Count: 0 LiscenceNo: admin MrShopNo: admin FpsCode: admin
+2019-09-02 14:33:17.336 +05:30 [INF] 
+masterdata fetch completed on 02-09-2019 14:33:17
+2019-09-02 14:33:17.720 +05:30 [INF] 
+Search result for catid 1 fetch complete on 02-09-2019 14:33:17
+2019-09-02 14:33:17.721 +05:30 [INF] 
+Search result for catid 2 fetch complete on 02-09-2019 14:33:17
+2019-09-02 14:33:18.004 +05:30 [INF] 
+Search result for catid 5 fetch complete on 02-09-2019 14:33:18
+2019-09-02 14:33:18.004 +05:30 [INF] 
+Search result for catid 4 fetch complete on 02-09-2019 14:33:18
+2019-09-02 14:33:18.917 +05:30 [INF] 
+Search result for catid 3 fetch complete on 02-09-2019 14:33:18
+2019-09-02 16:07:30.611 +05:30 [INF] _mac.IpAddress192.168.1.100
+2019-09-02 16:07:31.972 +05:30 [INF] Mac id: D4258BF47531 ipAddr: 192.168.1.100 Gateway: 192.168.1.1Public Ip: 103.74.141.77
+2019-09-02 16:07:33.756 +05:30 [INF] LoginId: biplabhome@gmail.com EmailId: biplabhome@gmail.com MacId: D4258BF47531 AllowedMacId: D4258BF47531 Name: Arindam Dey MobileNo: 9830609366 DistId: 2 Address: 102, Gandi Para Road East, Subhasgram,Kolkara 700147 ProfilePicPath: \image\arindamdey.png Role Count: 0 LiscenceNo: admin MrShopNo: admin FpsCode: admin
+2019-09-02 16:07:34.101 +05:30 [INF] 
+masterdata fetch completed on 02-09-2019 16:07:34
+2019-09-02 16:07:34.368 +05:30 [INF] 
+Search result for catid 5 fetch complete on 02-09-2019 16:07:34
+2019-09-02 16:07:34.675 +05:30 [INF] 
+Search result for catid 1 fetch complete on 02-09-2019 16:07:34
+2019-09-02 16:07:34.919 +05:30 [INF] 
+Search result for catid 2 fetch complete on 02-09-2019 16:07:34
+2019-09-02 16:07:35.180 +05:30 [INF] 
+Search result for catid 4 fetch complete on 02-09-2019 16:07:35
+2019-09-02 16:07:35.727 +05:30 [INF] 
+Search result for catid 3 fetch complete on 02-09-2019 16:07:35
+2019-09-02 16:09:16.006 +05:30 [INF] Mac id: D4258BF47531 ipAddr: 192.168.1.100 Gateway: 192.168.1.1Public Ip: 103.74.141.77
+2019-09-02 16:09:16.273 +05:30 [INF] LoginId: biplabhome@gmail.com EmailId: biplabhome@gmail.com MacId: D4258BF47531 AllowedMacId: D4258BF47531 Name: Arindam Dey MobileNo: 9830609366 DistId: 2 Address: 102, Gandi Para Road East, Subhasgram,Kolkara 700147 ProfilePicPath: \image\arindamdey.png Role Count: 0 LiscenceNo: admin MrShopNo: admin FpsCode: admin
+2019-09-02 16:09:16.586 +05:30 [INF] 
+masterdata fetch completed on 02-09-2019 16:09:16
+2019-09-02 16:09:16.824 +05:30 [INF] 
+Search result for catid 1 fetch complete on 02-09-2019 16:09:16
+2019-09-02 16:09:16.836 +05:30 [INF] 
+Search result for catid 2 fetch complete on 02-09-2019 16:09:16
+2019-09-02 16:09:17.076 +05:30 [INF] 
+Search result for catid 4 fetch complete on 02-09-2019 16:09:17
+2019-09-02 16:09:17.091 +05:30 [INF] 
+Search result for catid 5 fetch complete on 02-09-2019 16:09:17
+2019-09-02 16:09:18.121 +05:30 [INF] 
+Search result for catid 3 fetch complete on 02-09-2019 16:09:18
+2019-09-02 16:14:49.333 +05:30 [INF] Mac id: D4258BF47531 ipAddr: 192.168.1.100 Gateway: 192.168.1.1Public Ip: 103.74.141.77
+2019-09-02 16:14:51.001 +05:30 [INF] LoginId: biplabhome@gmail.com EmailId: biplabhome@gmail.com MacId: D4258BF47531 AllowedMacId: D4258BF47531 Name: Arindam Dey MobileNo: 9830609366 DistId: 2 Address: 102, Gandi Para Road East, Subhasgram,Kolkara 700147 ProfilePicPath: \image\arindamdey.png Role Count: 0 LiscenceNo: admin MrShopNo: admin FpsCode: admin
+2019-09-02 16:14:51.389 +05:30 [INF] 
+masterdata fetch completed on 02-09-2019 16:14:51
+2019-09-02 16:14:51.649 +05:30 [INF] 
+Search result for catid 1 fetch complete on 02-09-2019 16:14:51
+2019-09-02 16:14:51.899 +05:30 [INF] 
+Search result for catid 3 fetch complete on 02-09-2019 16:14:51
+2019-09-02 16:14:52.171 +05:30 [INF] 
+Search result for catid 4 fetch complete on 02-09-2019 16:14:52
+2019-09-02 16:14:52.426 +05:30 [INF] 
+Search result for catid 5 fetch complete on 02-09-2019 16:14:52
+2019-09-02 16:14:52.904 +05:30 [INF] 
+Search result for catid 2 fetch complete on 02-09-2019 16:14:52
+2019-09-02 16:16:25.553 +05:30 [INF] Mac id: D4258BF47531 ipAddr: 192.168.1.100 Gateway: 192.168.1.1Public Ip: 103.74.141.77
+2019-09-02 16:16:25.827 +05:30 [INF] LoginId: biplabhome@gmail.com EmailId: biplabhome@gmail.com MacId: D4258BF47531 AllowedMacId: D4258BF47531 Name: Arindam Dey MobileNo: 9830609366 DistId: 2 Address: 102, Gandi Para Road East, Subhasgram,Kolkara 700147 ProfilePicPath: \image\arindamdey.png Role Count: 0 LiscenceNo: admin MrShopNo: admin FpsCode: admin
+2019-09-02 16:16:26.125 +05:30 [INF] 
+masterdata fetch completed on 02-09-2019 16:16:26
+2019-09-02 16:16:26.374 +05:30 [INF] 
+Search result for catid 1 fetch complete on 02-09-2019 16:16:26
+2019-09-02 16:16:26.381 +05:30 [INF] 
+Search result for catid 2 fetch complete on 02-09-2019 16:16:26
+2019-09-02 16:16:26.640 +05:30 [INF] 
+Search result for catid 4 fetch complete on 02-09-2019 16:16:26
+2019-09-02 16:16:26.643 +05:30 [INF] 
+Search result for catid 5 fetch complete on 02-09-2019 16:16:26
+2019-09-02 16:16:27.641 +05:30 [INF] 
+Search result for catid 3 fetch complete on 02-09-2019 16:16:27
+2019-09-02 16:17:24.358 +05:30 [INF] Mac id: D4258BF47531 ipAddr: 192.168.1.100 Gateway: 192.168.1.1Public Ip: 103.74.141.77
+2019-09-02 16:17:24.616 +05:30 [INF] LoginId: biplabhome@gmail.com EmailId: biplabhome@gmail.com MacId: D4258BF47531 AllowedMacId: D4258BF47531 Name: Arindam Dey MobileNo: 9830609366 DistId: 2 Address: 102, Gandi Para Road East, Subhasgram,Kolkara 700147 ProfilePicPath: \image\arindamdey.png Role Count: 0 LiscenceNo: admin MrShopNo: admin FpsCode: admin
+2019-09-02 16:17:24.905 +05:30 [INF] 
+masterdata fetch completed on 02-09-2019 16:17:24
+2019-09-02 16:17:25.156 +05:30 [INF] 
+Search result for catid 2 fetch complete on 02-09-2019 16:17:25
+2019-09-02 16:17:25.183 +05:30 [INF] 
+Search result for catid 1 fetch complete on 02-09-2019 16:17:25
+2019-09-02 16:17:25.183 +05:30 [INF] 
+Search result for catid 3 fetch complete on 02-09-2019 16:17:25
+2019-09-02 16:17:25.424 +05:30 [INF] 
+Search result for catid 5 fetch complete on 02-09-2019 16:17:25
+2019-09-02 16:17:26.433 +05:30 [INF] 
+Search result for catid 4 fetch complete on 02-09-2019 16:17:26
+2019-09-02 16:19:16.750 +05:30 [INF] Mac id: D4258BF47531 ipAddr: 192.168.1.100 Gateway: 192.168.1.1Public Ip: 103.74.141.77
+2019-09-02 16:19:17.028 +05:30 [INF] LoginId: biplabhome@gmail.com EmailId: biplabhome@gmail.com MacId: D4258BF47531 AllowedMacId: D4258BF47531 Name: Arindam Dey MobileNo: 9830609366 DistId: 2 Address: 102, Gandi Para Road East, Subhasgram,Kolkara 700147 ProfilePicPath: \image\arindamdey.png Role Count: 0 LiscenceNo: admin MrShopNo: admin FpsCode: admin
+2019-09-02 16:19:17.454 +05:30 [INF] 
+masterdata fetch completed on 02-09-2019 16:19:17
+2019-09-02 16:19:17.715 +05:30 [INF] 
+Search result for catid 1 fetch complete on 02-09-2019 16:19:17
+2019-09-02 16:19:17.716 +05:30 [INF] 
+Search result for catid 2 fetch complete on 02-09-2019 16:19:17
+2019-09-02 16:19:17.727 +05:30 [INF] 
+Search result for catid 4 fetch complete on 02-09-2019 16:19:17
+2019-09-02 16:19:17.735 +05:30 [INF] 
+Search result for catid 3 fetch complete on 02-09-2019 16:19:17
+2019-09-02 16:19:19.031 +05:30 [INF] 
+Search result for catid 5 fetch complete on 02-09-2019 16:19:19
+2019-09-02 16:20:14.323 +05:30 [INF] Mac id: D4258BF47531 ipAddr: 192.168.1.100 Gateway: 192.168.1.1Public Ip: 103.74.141.77
+2019-09-02 16:20:14.575 +05:30 [INF] LoginId: biplabhome@gmail.com EmailId: biplabhome@gmail.com MacId: D4258BF47531 AllowedMacId: D4258BF47531 Name: Arindam Dey MobileNo: 9830609366 DistId: 2 Address: 102, Gandi Para Road East, Subhasgram,Kolkara 700147 ProfilePicPath: \image\arindamdey.png Role Count: 0 LiscenceNo: admin MrShopNo: admin FpsCode: admin
+2019-09-02 16:20:14.869 +05:30 [INF] 
+masterdata fetch completed on 02-09-2019 16:20:14
+2019-09-02 16:20:15.382 +05:30 [INF] 
+Search result for catid 1 fetch complete on 02-09-2019 16:20:15
+2019-09-02 16:20:15.412 +05:30 [INF] 
+Search result for catid 2 fetch complete on 02-09-2019 16:20:15
+2019-09-02 16:20:15.414 +05:30 [INF] 
+Search result for catid 3 fetch complete on 02-09-2019 16:20:15
+2019-09-02 16:20:15.451 +05:30 [INF] 
+Search result for catid 4 fetch complete on 02-09-2019 16:20:15
+2019-09-02 16:20:15.452 +05:30 [INF] 
+Search result for catid 5 fetch complete on 02-09-2019 16:20:15
+2019-09-02 16:20:46.211 +05:30 [INF] Mac id: D4258BF47531 ipAddr: 192.168.1.100 Gateway: 192.168.1.1Public Ip: 103.74.141.77
+2019-09-02 16:20:46.464 +05:30 [INF] LoginId: biplabhome@gmail.com EmailId: biplabhome@gmail.com MacId: D4258BF47531 AllowedMacId: D4258BF47531 Name: Arindam Dey MobileNo: 9830609366 DistId: 2 Address: 102, Gandi Para Road East, Subhasgram,Kolkara 700147 ProfilePicPath: \image\arindamdey.png Role Count: 0 LiscenceNo: admin MrShopNo: admin FpsCode: admin
+2019-09-02 16:20:46.783 +05:30 [INF] 
+masterdata fetch completed on 02-09-2019 16:20:46
+2019-09-02 16:20:47.021 +05:30 [INF] 
+Search result for catid 1 fetch complete on 02-09-2019 16:20:47
+2019-09-02 16:20:47.033 +05:30 [INF] 
+Search result for catid 2 fetch complete on 02-09-2019 16:20:47
+2019-09-02 16:20:47.045 +05:30 [INF] 
+Search result for catid 3 fetch complete on 02-09-2019 16:20:47
+2019-09-02 16:20:47.055 +05:30 [INF] 
+Search result for catid 4 fetch complete on 02-09-2019 16:20:47
+2019-09-02 16:20:47.076 +05:30 [INF] 
+Search result for catid 5 fetch complete on 02-09-2019 16:20:47
+2019-09-02 16:24:35.672 +05:30 [INF] Mac id: D4258BF47531 ipAddr: 192.168.1.100 Gateway: 192.168.1.1Public Ip: 103.74.141.77
+2019-09-02 16:24:35.924 +05:30 [INF] LoginId: biplabhome@gmail.com EmailId: biplabhome@gmail.com MacId: D4258BF47531 AllowedMacId: D4258BF47531 Name: Arindam Dey MobileNo: 9830609366 DistId: 2 Address: 102, Gandi Para Road East, Subhasgram,Kolkara 700147 ProfilePicPath: \image\arindamdey.png Role Count: 0 LiscenceNo: admin MrShopNo: admin FpsCode: admin
+2019-09-02 16:24:36.292 +05:30 [INF] 
+masterdata fetch completed on 02-09-2019 16:24:36
+2019-09-02 16:24:36.564 +05:30 [INF] 
+Search result for catid 3 fetch complete on 02-09-2019 16:24:36
+2019-09-02 16:24:36.564 +05:30 [INF] 
+Search result for catid 1 fetch complete on 02-09-2019 16:24:36
+2019-09-02 16:24:36.564 +05:30 [INF] 
+Search result for catid 2 fetch complete on 02-09-2019 16:24:36
+2019-09-02 16:24:36.592 +05:30 [INF] 
+Search result for catid 4 fetch complete on 02-09-2019 16:24:36
+2019-09-02 16:24:36.602 +05:30 [INF] 
+Search result for catid 5 fetch complete on 02-09-2019 16:24:36
+2019-09-02 16:27:38.174 +05:30 [INF] Mac id: D4258BF47531 ipAddr: 192.168.1.100 Gateway: 192.168.1.1Public Ip: 103.74.141.77
+2019-09-02 16:27:38.441 +05:30 [INF] LoginId: biplabhome@gmail.com EmailId: biplabhome@gmail.com MacId: D4258BF47531 AllowedMacId: D4258BF47531 Name: Arindam Dey MobileNo: 9830609366 DistId: 2 Address: 102, Gandi Para Road East, Subhasgram,Kolkara 700147 ProfilePicPath: \image\arindamdey.png Role Count: 0 LiscenceNo: admin MrShopNo: admin FpsCode: admin
+2019-09-02 16:27:38.742 +05:30 [INF] 
+masterdata fetch completed on 02-09-2019 16:27:38
+2019-09-02 16:27:38.992 +05:30 [INF] 
+Search result for catid 1 fetch complete on 02-09-2019 16:27:38
+2019-09-02 16:27:39.047 +05:30 [INF] 
+Search result for catid 2 fetch complete on 02-09-2019 16:27:39
+2019-09-02 16:27:39.094 +05:30 [INF] 
+Search result for catid 3 fetch complete on 02-09-2019 16:27:39
+2019-09-02 16:27:39.169 +05:30 [INF] 
+Search result for catid 4 fetch complete on 02-09-2019 16:27:39
+2019-09-02 16:27:39.171 +05:30 [INF] 
+Search result for catid 5 fetch complete on 02-09-2019 16:27:39
+2019-09-02 16:28:09.456 +05:30 [INF] Mac id: D4258BF47531 ipAddr: 192.168.1.100 Gateway: 192.168.1.1Public Ip: 103.74.141.77
+2019-09-02 16:28:09.711 +05:30 [INF] LoginId: biplabhome@gmail.com EmailId: biplabhome@gmail.com MacId: D4258BF47531 AllowedMacId: D4258BF47531 Name: Arindam Dey MobileNo: 9830609366 DistId: 2 Address: 102, Gandi Para Road East, Subhasgram,Kolkara 700147 ProfilePicPath: \image\arindamdey.png Role Count: 0 LiscenceNo: admin MrShopNo: admin FpsCode: admin
+2019-09-02 16:28:10.074 +05:30 [INF] 
+masterdata fetch completed on 02-09-2019 16:28:10
+2019-09-02 16:28:10.378 +05:30 [INF] 
+Search result for catid 2 fetch complete on 02-09-2019 16:28:10
+2019-09-02 16:28:10.475 +05:30 [INF] 
+Search result for catid 4 fetch complete on 02-09-2019 16:28:10
+2019-09-02 16:28:10.589 +05:30 [INF] 
+Search result for catid 1 fetch complete on 02-09-2019 16:28:10
+2019-09-02 16:28:10.601 +05:30 [INF] 
+Search result for catid 3 fetch complete on 02-09-2019 16:28:10
+2019-09-02 16:28:10.610 +05:30 [INF] 
+Search result for catid 5 fetch complete on 02-09-2019 16:28:10
+2019-09-02 16:33:49.106 +05:30 [INF] Mac id: D4258BF47531 ipAddr: 192.168.1.100 Gateway: 192.168.1.1Public Ip: 103.74.141.77
+2019-09-02 16:33:50.788 +05:30 [INF] LoginId: biplabhome@gmail.com EmailId: biplabhome@gmail.com MacId: D4258BF47531 AllowedMacId: D4258BF47531 Name: Arindam Dey MobileNo: 9830609366 DistId: 2 Address: 102, Gandi Para Road East, Subhasgram,Kolkara 700147 ProfilePicPath: \image\arindamdey.png Role Count: 0 LiscenceNo: admin MrShopNo: admin FpsCode: admin
+2019-09-02 16:33:51.081 +05:30 [INF] 
+masterdata fetch completed on 02-09-2019 16:33:51
+2019-09-02 16:33:51.332 +05:30 [INF] 
+Search result for catid 2 fetch complete on 02-09-2019 16:33:51
+2019-09-02 16:33:51.591 +05:30 [INF] 
+Search result for catid 3 fetch complete on 02-09-2019 16:33:51
+2019-09-02 16:33:51.847 +05:30 [INF] 
+Search result for catid 4 fetch complete on 02-09-2019 16:33:51
+2019-09-02 16:33:52.104 +05:30 [INF] 
+Search result for catid 5 fetch complete on 02-09-2019 16:33:52
+2019-09-02 16:33:52.595 +05:30 [INF] 
+Search result for catid 1 fetch complete on 02-09-2019 16:33:52
+2019-09-02 16:34:23.007 +05:30 [INF] Mac id: D4258BF47531 ipAddr: 192.168.1.100 Gateway: 192.168.1.1Public Ip: 103.74.141.77
+2019-09-02 16:34:23.260 +05:30 [INF] LoginId: biplabhome@gmail.com EmailId: biplabhome@gmail.com MacId: D4258BF47531 AllowedMacId: D4258BF47531 Name: Arindam Dey MobileNo: 9830609366 DistId: 2 Address: 102, Gandi Para Road East, Subhasgram,Kolkara 700147 ProfilePicPath: \image\arindamdey.png Role Count: 0 LiscenceNo: admin MrShopNo: admin FpsCode: admin
+2019-09-02 16:34:23.554 +05:30 [INF] 
+masterdata fetch completed on 02-09-2019 16:34:23
+2019-09-02 16:34:23.811 +05:30 [INF] 
+Search result for catid 1 fetch complete on 02-09-2019 16:34:23
+2019-09-02 16:34:23.858 +05:30 [INF] 
+Search result for catid 2 fetch complete on 02-09-2019 16:34:23
+2019-09-02 16:34:24.071 +05:30 [INF] 
+Search result for catid 4 fetch complete on 02-09-2019 16:34:24
+2019-09-02 16:34:24.121 +05:30 [INF] 
+Search result for catid 5 fetch complete on 02-09-2019 16:34:24
+2019-09-02 16:34:25.084 +05:30 [INF] 
+Search result for catid 3 fetch complete on 02-09-2019 16:34:25
+2019-09-02 16:36:39.459 +05:30 [INF] _mac.IpAddress192.168.1.100
+2019-09-02 16:36:40.710 +05:30 [INF] Mac id: D4258BF47531 ipAddr: 192.168.1.100 Gateway: 192.168.1.1Public Ip: 103.74.141.77
+2019-09-02 16:36:42.344 +05:30 [INF] LoginId: biplabhome@gmail.com EmailId: biplabhome@gmail.com MacId: D4258BF47531 AllowedMacId: D4258BF47531 Name: Arindam Dey MobileNo: 9830609366 DistId: 2 Address: 102, Gandi Para Road East, Subhasgram,Kolkara 700147 ProfilePicPath: \image\arindamdey.png Role Count: 0 LiscenceNo: admin MrShopNo: admin FpsCode: admin
+2019-09-02 16:36:42.686 +05:30 [INF] 
+masterdata fetch completed on 02-09-2019 16:36:42
+2019-09-02 16:36:42.953 +05:30 [INF] 
+Search result for catid 2 fetch complete on 02-09-2019 16:36:42
+2019-09-02 16:36:43.232 +05:30 [INF] 
+Search result for catid 1 fetch complete on 02-09-2019 16:36:43
+2019-09-02 16:36:43.474 +05:30 [INF] 
+Search result for catid 4 fetch complete on 02-09-2019 16:36:43
+2019-09-02 16:36:43.738 +05:30 [INF] 
+Search result for catid 5 fetch complete on 02-09-2019 16:36:43
+2019-09-02 16:36:44.222 +05:30 [INF] 
+Search result for catid 3 fetch complete on 02-09-2019 16:36:44
+2019-09-02 16:37:35.808 +05:30 [INF] Mac id: D4258BF47531 ipAddr: 192.168.1.100 Gateway: 192.168.1.1Public Ip: 103.74.141.77
+2019-09-02 16:37:36.066 +05:30 [INF] LoginId: biplabhome@gmail.com EmailId: biplabhome@gmail.com MacId: D4258BF47531 AllowedMacId: D4258BF47531 Name: Arindam Dey MobileNo: 9830609366 DistId: 2 Address: 102, Gandi Para Road East, Subhasgram,Kolkara 700147 ProfilePicPath: \image\arindamdey.png Role Count: 0 LiscenceNo: admin MrShopNo: admin FpsCode: admin
+2019-09-02 16:37:36.358 +05:30 [INF] 
+masterdata fetch completed on 02-09-2019 16:37:36
+2019-09-02 16:37:36.606 +05:30 [INF] 
+Search result for catid 1 fetch complete on 02-09-2019 16:37:36
+2019-09-02 16:37:36.614 +05:30 [INF] 
+Search result for catid 2 fetch complete on 02-09-2019 16:37:36
+2019-09-02 16:37:36.860 +05:30 [INF] 
+Search result for catid 4 fetch complete on 02-09-2019 16:37:36
+2019-09-02 16:37:36.871 +05:30 [INF] 
+Search result for catid 5 fetch complete on 02-09-2019 16:37:36
+2019-09-02 16:37:37.926 +05:30 [INF] 
+Search result for catid 3 fetch complete on 02-09-2019 16:37:37
+2019-09-02 16:37:46.084 +05:30 [INF] Mac id: D4258BF47531 ipAddr: 192.168.1.100 Gateway: 192.168.1.1Public Ip: 103.74.141.77
+2019-09-02 16:37:46.337 +05:30 [INF] LoginId: biplabhome@gmail.com EmailId: biplabhome@gmail.com MacId: D4258BF47531 AllowedMacId: D4258BF47531 Name: Arindam Dey MobileNo: 9830609366 DistId: 2 Address: 102, Gandi Para Road East, Subhasgram,Kolkara 700147 ProfilePicPath: \image\arindamdey.png Role Count: 0 LiscenceNo: admin MrShopNo: admin FpsCode: admin
+2019-09-02 16:37:46.634 +05:30 [INF] 
+masterdata fetch completed on 02-09-2019 16:37:46
+2019-09-02 16:37:46.878 +05:30 [INF] 
+Search result for catid 1 fetch complete on 02-09-2019 16:37:46
+2019-09-02 16:37:46.997 +05:30 [INF] 
+Search result for catid 3 fetch complete on 02-09-2019 16:37:46
+2019-09-02 16:37:47.010 +05:30 [INF] 
+Search result for catid 2 fetch complete on 02-09-2019 16:37:47
+2019-09-02 16:37:47.134 +05:30 [INF] 
+Search result for catid 5 fetch complete on 02-09-2019 16:37:47
+2019-09-02 16:37:48.155 +05:30 [INF] 
+Search result for catid 4 fetch complete on 02-09-2019 16:37:48
+2019-09-02 16:53:24.956 +05:30 [INF] _mac.IpAddress192.168.1.100
+2019-09-02 16:53:26.291 +05:30 [INF] Mac id: D4258BF47531 ipAddr: 192.168.1.100 Gateway: 192.168.1.1Public Ip: 103.74.141.77
+2019-09-02 16:53:28.052 +05:30 [INF] LoginId: biplabhome@gmail.com EmailId: biplabhome@gmail.com MacId: D4258BF47531 AllowedMacId: D4258BF47531 Name: Arindam Dey MobileNo: 9830609366 DistId: 2 Address: 102, Gandi Para Road East, Subhasgram,Kolkara 700147 ProfilePicPath: \image\arindamdey.png Role Count: 0 LiscenceNo: admin MrShopNo: admin FpsCode: admin
+2019-09-02 16:53:28.380 +05:30 [INF] 
+masterdata fetch completed on 02-09-2019 16:53:28
+2019-09-02 16:53:28.662 +05:30 [INF] 
+Search result for catid 2 fetch complete on 02-09-2019 16:53:28
+2019-09-02 16:53:28.944 +05:30 [INF] 
+Search result for catid 3 fetch complete on 02-09-2019 16:53:28
+2019-09-02 16:53:29.179 +05:30 [INF] 
+Search result for catid 4 fetch complete on 02-09-2019 16:53:29
+2019-09-02 16:53:29.461 +05:30 [INF] 
+Search result for catid 5 fetch complete on 02-09-2019 16:53:29
+2019-09-02 16:53:29.933 +05:30 [INF] 
+Search result for catid 1 fetch complete on 02-09-2019 16:53:29
+2019-09-02 16:56:47.700 +05:30 [INF] _mac.IpAddress192.168.1.100
+2019-09-02 16:56:48.970 +05:30 [INF] Mac id: D4258BF47531 ipAddr: 192.168.1.100 Gateway: 192.168.1.1Public Ip: 103.74.141.77
+2019-09-02 16:56:50.659 +05:30 [INF] LoginId: biplabhome@gmail.com EmailId: biplabhome@gmail.com MacId: D4258BF47531 AllowedMacId: D4258BF47531 Name: Arindam Dey MobileNo: 9830609366 DistId: 2 Address: 102, Gandi Para Road East, Subhasgram,Kolkara 700147 ProfilePicPath: \image\arindamdey.png Role Count: 0 LiscenceNo: admin MrShopNo: admin FpsCode: admin
+2019-09-02 16:56:50.996 +05:30 [INF] 
+masterdata fetch completed on 02-09-2019 16:56:50
+2019-09-02 16:56:51.271 +05:30 [INF] 
+Search result for catid 3 fetch complete on 02-09-2019 16:56:51
+2019-09-02 16:56:51.548 +05:30 [INF] 
+Search result for catid 1 fetch complete on 02-09-2019 16:56:51
+2019-09-02 16:56:51.796 +05:30 [INF] 
+Search result for catid 2 fetch complete on 02-09-2019 16:56:51
+2019-09-02 16:56:52.051 +05:30 [INF] 
+Search result for catid 4 fetch complete on 02-09-2019 16:56:52
+2019-09-02 16:56:52.535 +05:30 [INF] 
+Search result for catid 5 fetch complete on 02-09-2019 16:56:52
+2019-09-02 16:57:37.390 +05:30 [INF] Mac id: D4258BF47531 ipAddr: 192.168.1.100 Gateway: 192.168.1.1Public Ip: 103.74.141.77
+2019-09-02 16:57:37.644 +05:30 [INF] LoginId: biplabhome@gmail.com EmailId: biplabhome@gmail.com MacId: D4258BF47531 AllowedMacId: D4258BF47531 Name: Arindam Dey MobileNo: 9830609366 DistId: 2 Address: 102, Gandi Para Road East, Subhasgram,Kolkara 700147 ProfilePicPath: \image\arindamdey.png Role Count: 0 LiscenceNo: admin MrShopNo: admin FpsCode: admin
+2019-09-02 16:57:37.949 +05:30 [INF] 
+masterdata fetch completed on 02-09-2019 16:57:37
+2019-09-02 16:57:38.197 +05:30 [INF] 
+Search result for catid 1 fetch complete on 02-09-2019 16:57:38
+2019-09-02 16:57:38.233 +05:30 [INF] 
+Search result for catid 2 fetch complete on 02-09-2019 16:57:38
+2019-09-02 16:57:38.486 +05:30 [INF] 
+Search result for catid 4 fetch complete on 02-09-2019 16:57:38
+2019-09-02 16:57:38.515 +05:30 [INF] 
+Search result for catid 5 fetch complete on 02-09-2019 16:57:38
+2019-09-02 16:57:39.518 +05:30 [INF] 
+Search result for catid 3 fetch complete on 02-09-2019 16:57:39
+2019-09-02 16:58:14.182 +05:30 [INF] Mac id: D4258BF47531 ipAddr: 192.168.1.100 Gateway: 192.168.1.1Public Ip: 103.74.141.77
+2019-09-02 16:58:14.439 +05:30 [INF] LoginId: biplabhome@gmail.com EmailId: biplabhome@gmail.com MacId: D4258BF47531 AllowedMacId: D4258BF47531 Name: Arindam Dey MobileNo: 9830609366 DistId: 2 Address: 102, Gandi Para Road East, Subhasgram,Kolkara 700147 ProfilePicPath: \image\arindamdey.png Role Count: 0 LiscenceNo: admin MrShopNo: admin FpsCode: admin
+2019-09-02 16:58:14.736 +05:30 [INF] 
+masterdata fetch completed on 02-09-2019 16:58:14
+2019-09-02 16:58:14.978 +05:30 [INF] 
+Search result for catid 1 fetch complete on 02-09-2019 16:58:14
+2019-09-02 16:58:14.986 +05:30 [INF] 
+Search result for catid 2 fetch complete on 02-09-2019 16:58:14
+2019-09-02 16:58:14.994 +05:30 [INF] 
+Search result for catid 3 fetch complete on 02-09-2019 16:58:14
+2019-09-02 16:58:15.232 +05:30 [INF] 
+Search result for catid 5 fetch complete on 02-09-2019 16:58:15
+2019-09-02 16:58:16.267 +05:30 [INF] 
+Search result for catid 4 fetch complete on 02-09-2019 16:58:16
+2019-09-02 16:58:51.199 +05:30 [INF] Mac id: D4258BF47531 ipAddr: 192.168.1.100 Gateway: 192.168.1.1Public Ip: 103.74.141.77
+2019-09-02 16:58:51.455 +05:30 [INF] LoginId: biplabhome@gmail.com EmailId: biplabhome@gmail.com MacId: D4258BF47531 AllowedMacId: D4258BF47531 Name: Arindam Dey MobileNo: 9830609366 DistId: 2 Address: 102, Gandi Para Road East, Subhasgram,Kolkara 700147 ProfilePicPath: \image\arindamdey.png Role Count: 0 LiscenceNo: admin MrShopNo: admin FpsCode: admin
+2019-09-02 16:58:51.753 +05:30 [INF] 
+masterdata fetch completed on 02-09-2019 16:58:51
+2019-09-02 16:58:52.003 +05:30 [INF] 
+Search result for catid 1 fetch complete on 02-09-2019 16:58:52
+2019-09-02 16:58:52.011 +05:30 [INF] 
+Search result for catid 2 fetch complete on 02-09-2019 16:58:52
+2019-09-02 16:58:52.024 +05:30 [INF] 
+Search result for catid 4 fetch complete on 02-09-2019 16:58:52
+2019-09-02 16:58:52.030 +05:30 [INF] 
+Search result for catid 3 fetch complete on 02-09-2019 16:58:52
+2019-09-02 16:58:53.324 +05:30 [INF] 
+Search result for catid 5 fetch complete on 02-09-2019 16:58:53
+2019-09-02 17:24:48.356 +05:30 [INF] Mac id: D4258BF47531 ipAddr: 192.168.1.100 Gateway: 192.168.1.1Public Ip: 103.74.141.77
+2019-09-02 17:24:49.985 +05:30 [INF] LoginId: biplabhome@gmail.com EmailId: biplabhome@gmail.com MacId: D4258BF47531 AllowedMacId: D4258BF47531 Name: Arindam Dey MobileNo: 9830609366 DistId: 2 Address: 102, Gandi Para Road East, Subhasgram,Kolkara 700147 ProfilePicPath: \image\arindamdey.png Role Count: 0 LiscenceNo: admin MrShopNo: admin FpsCode: admin
+2019-09-02 17:24:51.555 +05:30 [INF] 
+masterdata fetch completed on 02-09-2019 17:24:51
+2019-09-02 17:24:51.798 +05:30 [INF] 
+Search result for catid 1 fetch complete on 02-09-2019 17:24:51
+2019-09-02 17:24:52.074 +05:30 [INF] 
+Search result for catid 3 fetch complete on 02-09-2019 17:24:52
+2019-09-02 17:24:52.315 +05:30 [INF] 
+Search result for catid 4 fetch complete on 02-09-2019 17:24:52
+2019-09-02 17:24:52.576 +05:30 [INF] 
+Search result for catid 5 fetch complete on 02-09-2019 17:24:52
+2019-09-02 17:24:53.070 +05:30 [INF] 
+Search result for catid 2 fetch complete on 02-09-2019 17:24:53
+2019-09-02 17:25:30.241 +05:30 [INF] Mac id: D4258BF47531 ipAddr: 192.168.1.100 Gateway: 192.168.1.1Public Ip: 103.74.141.77
+2019-09-02 17:25:30.532 +05:30 [INF] LoginId: biplabhome@gmail.com EmailId: biplabhome@gmail.com MacId: D4258BF47531 AllowedMacId: D4258BF47531 Name: Arindam Dey MobileNo: 9830609366 DistId: 2 Address: 102, Gandi Para Road East, Subhasgram,Kolkara 700147 ProfilePicPath: \image\arindamdey.png Role Count: 0 LiscenceNo: admin MrShopNo: admin FpsCode: admin
+2019-09-02 17:25:30.996 +05:30 [INF] 
+masterdata fetch completed on 02-09-2019 17:25:30
+2019-09-02 17:25:31.212 +05:30 [INF] 
+Search result for catid 1 fetch complete on 02-09-2019 17:25:31
+2019-09-02 17:25:31.224 +05:30 [INF] 
+Search result for catid 2 fetch complete on 02-09-2019 17:25:31
+2019-09-02 17:25:31.469 +05:30 [INF] 
+Search result for catid 4 fetch complete on 02-09-2019 17:25:31
+2019-09-02 17:25:31.478 +05:30 [INF] 
+Search result for catid 5 fetch complete on 02-09-2019 17:25:31
+2019-09-02 17:25:32.498 +05:30 [INF] 
+Search result for catid 3 fetch complete on 02-09-2019 17:25:32
+2019-09-02 17:32:10.589 +05:30 [INF] Mac id: D4258BF47531 ipAddr: 192.168.1.100 Gateway: 192.168.1.1Public Ip: 103.74.141.77
+2019-09-02 17:32:12.204 +05:30 [INF] LoginId: biplabhome@gmail.com EmailId: biplabhome@gmail.com MacId: D4258BF47531 AllowedMacId: D4258BF47531 Name: Arindam Dey MobileNo: 9830609366 DistId: 2 Address: 102, Gandi Para Road East, Subhasgram,Kolkara 700147 ProfilePicPath: \image\arindamdey.png Role Count: 0 LiscenceNo: admin MrShopNo: admin FpsCode: admin
+2019-09-02 17:32:12.499 +05:30 [INF] 
+masterdata fetch completed on 02-09-2019 17:32:12
+2019-09-02 17:32:12.758 +05:30 [INF] 
+Search result for catid 1 fetch complete on 02-09-2019 17:32:12
+2019-09-02 17:32:13.040 +05:30 [INF] 
+Search result for catid 2 fetch complete on 02-09-2019 17:32:13
+2019-09-02 17:32:13.286 +05:30 [INF] 
+Search result for catid 4 fetch complete on 02-09-2019 17:32:13
+2019-09-02 17:32:13.537 +05:30 [INF] 
+Search result for catid 5 fetch complete on 02-09-2019 17:32:13
+2019-09-02 17:32:14.022 +05:30 [INF] 
+Search result for catid 3 fetch complete on 02-09-2019 17:32:14
+2019-09-02 17:32:58.674 +05:30 [INF] Mac id: D4258BF47531 ipAddr: 192.168.1.100 Gateway: 192.168.1.1Public Ip: 103.74.141.77
+2019-09-02 17:32:58.924 +05:30 [INF] LoginId: biplabhome@gmail.com EmailId: biplabhome@gmail.com MacId: D4258BF47531 AllowedMacId: D4258BF47531 Name: Arindam Dey MobileNo: 9830609366 DistId: 2 Address: 102, Gandi Para Road East, Subhasgram,Kolkara 700147 ProfilePicPath: \image\arindamdey.png Role Count: 0 LiscenceNo: admin MrShopNo: admin FpsCode: admin
+2019-09-02 17:32:59.273 +05:30 [INF] 
+masterdata fetch completed on 02-09-2019 17:32:59
+2019-09-02 17:32:59.498 +05:30 [INF] 
+Search result for catid 1 fetch complete on 02-09-2019 17:32:59
+2019-09-02 17:32:59.507 +05:30 [INF] 
+Search result for catid 2 fetch complete on 02-09-2019 17:32:59
+2019-09-02 17:32:59.830 +05:30 [INF] 
+Search result for catid 4 fetch complete on 02-09-2019 17:32:59
+2019-09-02 17:32:59.870 +05:30 [INF] 
+Search result for catid 5 fetch complete on 02-09-2019 17:32:59
+2019-09-02 17:33:00.851 +05:30 [INF] 
+Search result for catid 3 fetch complete on 02-09-2019 17:33:00
+2019-09-02 17:35:49.000 +05:30 [INF] Mac id: D4258BF47531 ipAddr: 192.168.1.100 Gateway: 192.168.1.1Public Ip: 103.74.141.77
+2019-09-02 17:35:49.252 +05:30 [INF] LoginId: biplabhome@gmail.com EmailId: biplabhome@gmail.com MacId: D4258BF47531 AllowedMacId: D4258BF47531 Name: Arindam Dey MobileNo: 9830609366 DistId: 2 Address: 102, Gandi Para Road East, Subhasgram,Kolkara 700147 ProfilePicPath: \image\arindamdey.png Role Count: 0 LiscenceNo: admin MrShopNo: admin FpsCode: admin
+2019-09-02 17:35:49.546 +05:30 [INF] 
+masterdata fetch completed on 02-09-2019 17:35:49
+2019-09-02 17:35:49.816 +05:30 [INF] 
+Search result for catid 2 fetch complete on 02-09-2019 17:35:49
+2019-09-02 17:35:49.838 +05:30 [INF] 
+Search result for catid 1 fetch complete on 02-09-2019 17:35:49
+2019-09-02 17:35:49.838 +05:30 [INF] 
+Search result for catid 3 fetch complete on 02-09-2019 17:35:49
+2019-09-02 17:35:50.055 +05:30 [INF] 
+Search result for catid 5 fetch complete on 02-09-2019 17:35:50
+2019-09-02 17:35:51.075 +05:30 [INF] 
+Search result for catid 4 fetch complete on 02-09-2019 17:35:51
+2019-09-02 17:35:52.415 +05:30 [INF] Mac id: D4258BF47531 ipAddr: 192.168.1.100 Gateway: 192.168.1.1Public Ip: 103.74.141.77
+2019-09-02 17:35:52.670 +05:30 [INF] LoginId: biplabhome@gmail.com EmailId: biplabhome@gmail.com MacId: D4258BF47531 AllowedMacId: D4258BF47531 Name: Arindam Dey MobileNo: 9830609366 DistId: 2 Address: 102, Gandi Para Road East, Subhasgram,Kolkara 700147 ProfilePicPath: \image\arindamdey.png Role Count: 0 LiscenceNo: admin MrShopNo: admin FpsCode: admin
+2019-09-02 17:35:52.976 +05:30 [INF] 
+masterdata fetch completed on 02-09-2019 17:35:52
+2019-09-02 17:35:53.221 +05:30 [INF] 
+Search result for catid 1 fetch complete on 02-09-2019 17:35:53
+2019-09-02 17:35:53.238 +05:30 [INF] 
+Search result for catid 2 fetch complete on 02-09-2019 17:35:53
+2019-09-02 17:35:53.243 +05:30 [INF] 
+Search result for catid 3 fetch complete on 02-09-2019 17:35:53
+2019-09-02 17:35:53.252 +05:30 [INF] 
+Search result for catid 4 fetch complete on 02-09-2019 17:35:53
+2019-09-02 17:35:54.565 +05:30 [INF] 
+Search result for catid 5 fetch complete on 02-09-2019 17:35:54
+2019-09-02 19:38:06.434 +05:30 [INF] _mac.IpAddress192.168.1.100
+2019-09-02 19:38:07.549 +05:30 [INF] Mac id: D4258BF47531 ipAddr: 192.168.1.100 Gateway: 192.168.1.1Public Ip: 103.74.141.77
+2019-09-02 19:38:09.321 +05:30 [INF] LoginId: biplabhome@gmail.com EmailId: biplabhome@gmail.com MacId: D4258BF47531 AllowedMacId: D4258BF47531 Name: Arindam Dey MobileNo: 9830609366 DistId: 2 Address: 102, Gandi Para Road East, Subhasgram,Kolkara 700147 ProfilePicPath: \image\arindamdey.png Role Count: 0 LiscenceNo: admin MrShopNo: admin FpsCode: admin
+2019-09-02 19:38:09.674 +05:30 [INF] 
+masterdata fetch completed on 02-09-2019 19:38:09
+2019-09-02 19:38:09.942 +05:30 [INF] 
+Search result for catid 5 fetch complete on 02-09-2019 19:38:09
+2019-09-02 19:38:10.220 +05:30 [INF] 
+Search result for catid 1 fetch complete on 02-09-2019 19:38:10
+2019-09-02 19:38:10.523 +05:30 [INF] 
+Search result for catid 2 fetch complete on 02-09-2019 19:38:10
+2019-09-02 19:38:10.782 +05:30 [INF] 
+Search result for catid 3 fetch complete on 02-09-2019 19:38:10
+2019-09-02 19:38:11.239 +05:30 [INF] 
+Search result for catid 4 fetch complete on 02-09-2019 19:38:11
+2019-09-02 22:25:14.436 +05:30 [INF] _mac.IpAddress192.168.1.100
+2019-09-02 22:25:15.675 +05:30 [INF] Mac id: D4258BF47531 ipAddr: 192.168.1.100 Gateway: 192.168.1.1Public Ip: 103.74.141.77
+2019-09-02 22:25:17.477 +05:30 [INF] LoginId: biplabhome@gmail.com EmailId: biplabhome@gmail.com MacId: D4258BF47531 AllowedMacId: D4258BF47531 Name: Arindam Dey MobileNo: 9830609366 DistId: 2 Address: 102, Gandi Para Road East, Subhasgram,Kolkara 700147 ProfilePicPath: \image\arindamdey.png Role Count: 0 LiscenceNo: admin MrShopNo: admin FpsCode: admin
+2019-09-02 22:25:17.824 +05:30 [INF] 
+masterdata fetch completed on 02-09-2019 22:25:17
+2019-09-02 22:25:18.094 +05:30 [INF] 
+Search result for catid 3 fetch complete on 02-09-2019 22:25:18
+2019-09-02 22:25:18.349 +05:30 [INF] 
+Search result for catid 1 fetch complete on 02-09-2019 22:25:18
+2019-09-02 22:25:18.648 +05:30 [INF] 
+Search result for catid 2 fetch complete on 02-09-2019 22:25:18
+2019-09-02 22:25:18.909 +05:30 [INF] 
+Search result for catid 4 fetch complete on 02-09-2019 22:25:18
+2019-09-02 22:25:19.367 +05:30 [INF] 
+Search result for catid 5 fetch complete on 02-09-2019 22:25:19
+2019-09-02 22:26:20.290 +05:30 [INF] Mac id: D4258BF47531 ipAddr: 192.168.1.100 Gateway: 192.168.1.1Public Ip: 103.74.141.77
+2019-09-02 22:26:20.545 +05:30 [INF] LoginId: biplabhome@gmail.com EmailId: biplabhome@gmail.com MacId: D4258BF47531 AllowedMacId: D4258BF47531 Name: Arindam Dey MobileNo: 9830609366 DistId: 2 Address: 102, Gandi Para Road East, Subhasgram,Kolkara 700147 ProfilePicPath: \image\arindamdey.png Role Count: 0 LiscenceNo: admin MrShopNo: admin FpsCode: admin
+2019-09-02 22:26:20.843 +05:30 [INF] 
+masterdata fetch completed on 02-09-2019 22:26:20
+2019-09-02 22:26:21.097 +05:30 [INF] 
+Search result for catid 1 fetch complete on 02-09-2019 22:26:21
+2019-09-02 22:26:21.107 +05:30 [INF] 
+Search result for catid 2 fetch complete on 02-09-2019 22:26:21
+2019-09-02 22:26:21.353 +05:30 [INF] 
+Search result for catid 4 fetch complete on 02-09-2019 22:26:21
+2019-09-02 22:26:21.372 +05:30 [INF] 
+Search result for catid 5 fetch complete on 02-09-2019 22:26:21
+2019-09-02 22:26:22.490 +05:30 [INF] 
+Search result for catid 3 fetch complete on 02-09-2019 22:26:22
+2019-09-02 22:28:12.422 +05:30 [INF] Mac id: D4258BF47531 ipAddr: 192.168.1.100 Gateway: 192.168.1.1Public Ip: 103.74.141.77
+2019-09-02 22:28:12.690 +05:30 [INF] LoginId: biplabhome@gmail.com EmailId: biplabhome@gmail.com MacId: D4258BF47531 AllowedMacId: D4258BF47531 Name: Arindam Dey MobileNo: 9830609366 DistId: 2 Address: 102, Gandi Para Road East, Subhasgram,Kolkara 700147 ProfilePicPath: \image\arindamdey.png Role Count: 0 LiscenceNo: admin MrShopNo: admin FpsCode: admin
+2019-09-02 22:28:12.987 +05:30 [INF] 
+masterdata fetch completed on 02-09-2019 22:28:12
+2019-09-02 22:28:13.241 +05:30 [INF] 
+Search result for catid 1 fetch complete on 02-09-2019 22:28:13
+2019-09-02 22:28:13.258 +05:30 [INF] 
+Search result for catid 3 fetch complete on 02-09-2019 22:28:13
+2019-09-02 22:28:13.318 +05:30 [INF] 
+Search result for catid 2 fetch complete on 02-09-2019 22:28:13
+2019-09-02 22:28:13.491 +05:30 [INF] 
+Search result for catid 5 fetch complete on 02-09-2019 22:28:13
+2019-09-02 22:28:14.525 +05:30 [INF] 
+Search result for catid 4 fetch complete on 02-09-2019 22:28:14
+2019-09-02 22:30:44.616 +05:30 [INF] _mac.IpAddress192.168.1.100
+2019-09-02 22:30:45.729 +05:30 [INF] Mac id: D4258BF47531 ipAddr: 192.168.1.100 Gateway: 192.168.1.1Public Ip: 103.74.141.77
+2019-09-02 22:30:47.446 +05:30 [INF] LoginId: biplabhome@gmail.com EmailId: biplabhome@gmail.com MacId: D4258BF47531 AllowedMacId: D4258BF47531 Name: Arindam Dey MobileNo: 9830609366 DistId: 2 Address: 102, Gandi Para Road East, Subhasgram,Kolkara 700147 ProfilePicPath: \image\arindamdey.png Role Count: 0 LiscenceNo: admin MrShopNo: admin FpsCode: admin
+2019-09-02 22:30:47.862 +05:30 [INF] 
+masterdata fetch completed on 02-09-2019 22:30:47
+2019-09-02 22:30:48.136 +05:30 [INF] 
+Search result for catid 1 fetch complete on 02-09-2019 22:30:48
+2019-09-02 22:30:48.394 +05:30 [INF] 
+Search result for catid 3 fetch complete on 02-09-2019 22:30:48
+2019-09-02 22:30:48.658 +05:30 [INF] 
+Search result for catid 4 fetch complete on 02-09-2019 22:30:48
+2019-09-02 22:30:48.916 +05:30 [INF] 
+Search result for catid 5 fetch complete on 02-09-2019 22:30:48
+2019-09-02 22:30:49.412 +05:30 [INF] 
+Search result for catid 2 fetch complete on 02-09-2019 22:30:49
+2019-09-02 22:31:13.435 +05:30 [INF] Mac id: D4258BF47531 ipAddr: 192.168.1.100 Gateway: 192.168.1.1Public Ip: 103.74.141.77
+2019-09-02 22:31:13.689 +05:30 [INF] LoginId: biplabhome@gmail.com EmailId: biplabhome@gmail.com MacId: D4258BF47531 AllowedMacId: D4258BF47531 Name: Arindam Dey MobileNo: 9830609366 DistId: 2 Address: 102, Gandi Para Road East, Subhasgram,Kolkara 700147 ProfilePicPath: \image\arindamdey.png Role Count: 0 LiscenceNo: admin MrShopNo: admin FpsCode: admin
+2019-09-02 22:31:13.983 +05:30 [INF] 
+masterdata fetch completed on 02-09-2019 22:31:13
+2019-09-02 22:31:14.229 +05:30 [INF] 
+Search result for catid 2 fetch complete on 02-09-2019 22:31:14
+2019-09-02 22:31:14.242 +05:30 [INF] 
+Search result for catid 1 fetch complete on 02-09-2019 22:31:14
+2019-09-02 22:31:14.486 +05:30 [INF] 
+Search result for catid 4 fetch complete on 02-09-2019 22:31:14
+2019-09-02 22:31:14.498 +05:30 [INF] 
+Search result for catid 5 fetch complete on 02-09-2019 22:31:14
+2019-09-02 22:31:15.519 +05:30 [INF] 
+Search result for catid 3 fetch complete on 02-09-2019 22:31:15
+2019-09-02 22:32:14.670 +05:30 [INF] _mac.IpAddress192.168.1.100
+2019-09-02 22:32:15.782 +05:30 [INF] Mac id: D4258BF47531 ipAddr: 192.168.1.100 Gateway: 192.168.1.1Public Ip: 103.74.141.77
+2019-09-02 22:32:17.459 +05:30 [INF] LoginId: biplabhome@gmail.com EmailId: biplabhome@gmail.com MacId: D4258BF47531 AllowedMacId: D4258BF47531 Name: Arindam Dey MobileNo: 9830609366 DistId: 2 Address: 102, Gandi Para Road East, Subhasgram,Kolkara 700147 ProfilePicPath: \image\arindamdey.png Role Count: 0 LiscenceNo: admin MrShopNo: admin FpsCode: admin
+2019-09-02 22:32:17.793 +05:30 [INF] 
+masterdata fetch completed on 02-09-2019 22:32:17
+2019-09-02 22:32:18.061 +05:30 [INF] 
+Search result for catid 2 fetch complete on 02-09-2019 22:32:18
+2019-09-02 22:32:18.325 +05:30 [INF] 
+Search result for catid 1 fetch complete on 02-09-2019 22:32:18
+2019-09-02 22:32:18.576 +05:30 [INF] 
+Search result for catid 4 fetch complete on 02-09-2019 22:32:18
+2019-09-02 22:32:18.832 +05:30 [INF] 
+Search result for catid 5 fetch complete on 02-09-2019 22:32:18
+2019-09-02 22:32:19.326 +05:30 [INF] 
+Search result for catid 3 fetch complete on 02-09-2019 22:32:19
+2019-09-02 22:32:49.529 +05:30 [INF] _mac.IpAddress192.168.1.100
+2019-09-02 22:32:50.637 +05:30 [INF] Mac id: D4258BF47531 ipAddr: 192.168.1.100 Gateway: 192.168.1.1Public Ip: 103.74.141.77
+2019-09-02 22:32:52.233 +05:30 [INF] LoginId: biplabhome@gmail.com EmailId: biplabhome@gmail.com MacId: D4258BF47531 AllowedMacId: D4258BF47531 Name: Arindam Dey MobileNo: 9830609366 DistId: 2 Address: 102, Gandi Para Road East, Subhasgram,Kolkara 700147 ProfilePicPath: \image\arindamdey.png Role Count: 0 LiscenceNo: admin MrShopNo: admin FpsCode: admin
+2019-09-02 22:32:52.702 +05:30 [INF] 
+masterdata fetch completed on 02-09-2019 22:32:52
+2019-09-02 22:32:52.966 +05:30 [INF] 
+Search result for catid 5 fetch complete on 02-09-2019 22:32:52
+2019-09-02 22:32:53.227 +05:30 [INF] 
+Search result for catid 1 fetch complete on 02-09-2019 22:32:53
+2019-09-02 22:32:53.483 +05:30 [INF] 
+Search result for catid 3 fetch complete on 02-09-2019 22:32:53
+2019-09-02 22:32:53.739 +05:30 [INF] 
+Search result for catid 4 fetch complete on 02-09-2019 22:32:53
+2019-09-02 22:32:54.231 +05:30 [INF] 
+Search result for catid 2 fetch complete on 02-09-2019 22:32:54
+2019-09-02 22:34:25.462 +05:30 [INF] Mac id: D4258BF47531 ipAddr: 192.168.1.100 Gateway: 192.168.1.1Public Ip: 103.74.141.77
+2019-09-02 22:34:25.729 +05:30 [INF] LoginId: biplabhome@gmail.com EmailId: biplabhome@gmail.com MacId: D4258BF47531 AllowedMacId: D4258BF47531 Name: Arindam Dey MobileNo: 9830609366 DistId: 2 Address: 102, Gandi Para Road East, Subhasgram,Kolkara 700147 ProfilePicPath: \image\arindamdey.png Role Count: 0 LiscenceNo: admin MrShopNo: admin FpsCode: admin
+2019-09-02 22:34:26.162 +05:30 [INF] 
+masterdata fetch completed on 02-09-2019 22:34:26
+2019-09-02 22:34:26.413 +05:30 [INF] 
+Search result for catid 1 fetch complete on 02-09-2019 22:34:26
+2019-09-02 22:34:26.425 +05:30 [INF] 
+Search result for catid 3 fetch complete on 02-09-2019 22:34:26
+2019-09-02 22:34:26.671 +05:30 [INF] 
+Search result for catid 4 fetch complete on 02-09-2019 22:34:26
+2019-09-02 22:34:26.682 +05:30 [INF] 
+Search result for catid 5 fetch complete on 02-09-2019 22:34:26
+2019-09-02 22:34:27.708 +05:30 [INF] 
+Search result for catid 2 fetch complete on 02-09-2019 22:34:27
+2019-09-02 22:36:49.019 +05:30 [INF] _mac.IpAddress192.168.1.100
+2019-09-02 22:36:50.108 +05:30 [INF] Mac id: D4258BF47531 ipAddr: 192.168.1.100 Gateway: 192.168.1.1Public Ip: 103.74.141.77
+2019-09-02 22:36:51.830 +05:30 [INF] LoginId: biplabhome@gmail.com EmailId: biplabhome@gmail.com MacId: D4258BF47531 AllowedMacId: D4258BF47531 Name: Arindam Dey MobileNo: 9830609366 DistId: 2 Address: 102, Gandi Para Road East, Subhasgram,Kolkara 700147 ProfilePicPath: \image\arindamdey.png Role Count: 0 LiscenceNo: admin MrShopNo: admin FpsCode: admin
+2019-09-02 22:36:52.157 +05:30 [INF] 
+masterdata fetch completed on 02-09-2019 22:36:52
+2019-09-02 22:36:52.422 +05:30 [INF] 
+Search result for catid 2 fetch complete on 02-09-2019 22:36:52
+2019-09-02 22:36:52.691 +05:30 [INF] 
+Search result for catid 1 fetch complete on 02-09-2019 22:36:52
+2019-09-02 22:36:52.946 +05:30 [INF] 
+Search result for catid 3 fetch complete on 02-09-2019 22:36:52
+2019-09-02 22:36:53.203 +05:30 [INF] 
+Search result for catid 4 fetch complete on 02-09-2019 22:36:53
+2019-09-02 22:36:53.699 +05:30 [INF] 
+Search result for catid 5 fetch complete on 02-09-2019 22:36:53
+2019-09-02 22:37:55.904 +05:30 [INF] Mac id: D4258BF47531 ipAddr: 192.168.1.100 Gateway: 192.168.1.1Public Ip: 103.74.141.77
+2019-09-02 22:37:56.164 +05:30 [INF] LoginId: biplabhome@gmail.com EmailId: biplabhome@gmail.com MacId: D4258BF47531 AllowedMacId: D4258BF47531 Name: Arindam Dey MobileNo: 9830609366 DistId: 2 Address: 102, Gandi Para Road East, Subhasgram,Kolkara 700147 ProfilePicPath: \image\arindamdey.png Role Count: 0 LiscenceNo: admin MrShopNo: admin FpsCode: admin
+2019-09-02 22:37:56.457 +05:30 [INF] 
+masterdata fetch completed on 02-09-2019 22:37:56
+2019-09-02 22:37:56.709 +05:30 [INF] 
+Search result for catid 1 fetch complete on 02-09-2019 22:37:56
+2019-09-02 22:37:56.724 +05:30 [INF] 
+Search result for catid 2 fetch complete on 02-09-2019 22:37:56
+2019-09-02 22:37:56.963 +05:30 [INF] 
+Search result for catid 4 fetch complete on 02-09-2019 22:37:56
+2019-09-02 22:37:56.979 +05:30 [INF] 
+Search result for catid 5 fetch complete on 02-09-2019 22:37:56
+2019-09-02 22:37:57.988 +05:30 [INF] 
+Search result for catid 3 fetch complete on 02-09-2019 22:37:57
+2019-09-02 22:46:35.895 +05:30 [INF] _mac.IpAddress192.168.1.100
+2019-09-02 22:46:37.012 +05:30 [INF] Mac id: D4258BF47531 ipAddr: 192.168.1.100 Gateway: 192.168.1.1Public Ip: 103.74.141.77
+2019-09-02 22:46:38.712 +05:30 [INF] LoginId: biplabhome@gmail.com EmailId: biplabhome@gmail.com MacId: D4258BF47531 AllowedMacId: D4258BF47531 Name: Arindam Dey MobileNo: 9830609366 DistId: 2 Address: 102, Gandi Para Road East, Subhasgram,Kolkara 700147 ProfilePicPath: \image\arindamdey.png Role Count: 0 LiscenceNo: admin MrShopNo: admin FpsCode: admin
+2019-09-02 22:46:39.033 +05:30 [INF] 
+masterdata fetch completed on 02-09-2019 22:46:39
+2019-09-02 22:46:39.311 +05:30 [INF] 
+Search result for catid 3 fetch complete on 02-09-2019 22:46:39
+2019-09-02 22:46:39.565 +05:30 [INF] 
+Search result for catid 2 fetch complete on 02-09-2019 22:46:39
+2019-09-02 22:46:39.822 +05:30 [INF] 
+Search result for catid 4 fetch complete on 02-09-2019 22:46:39
+2019-09-02 22:46:40.077 +05:30 [INF] 
+Search result for catid 5 fetch complete on 02-09-2019 22:46:40
+2019-09-02 22:46:40.575 +05:30 [INF] 
+Search result for catid 1 fetch complete on 02-09-2019 22:46:40
+2019-09-02 22:48:56.282 +05:30 [INF] Mac id: D4258BF47531 ipAddr: 192.168.1.100 Gateway: 192.168.1.1Public Ip: 103.74.141.77
+2019-09-02 22:48:56.598 +05:30 [INF] LoginId: biplabhome@gmail.com EmailId: biplabhome@gmail.com MacId: D4258BF47531 AllowedMacId: D4258BF47531 Name: Arindam Dey MobileNo: 9830609366 DistId: 2 Address: 102, Gandi Para Road East, Subhasgram,Kolkara 700147 ProfilePicPath: \image\arindamdey.png Role Count: 0 LiscenceNo: admin MrShopNo: admin FpsCode: admin
+2019-09-02 22:48:57.583 +05:30 [INF] 
+masterdata fetch completed on 02-09-2019 22:48:57
+2019-09-02 22:48:57.830 +05:30 [INF] 
+Search result for catid 1 fetch complete on 02-09-2019 22:48:57
+2019-09-02 22:48:57.838 +05:30 [INF] 
+Search result for catid 2 fetch complete on 02-09-2019 22:48:57
+2019-09-02 22:48:58.088 +05:30 [INF] 
+Search result for catid 4 fetch complete on 02-09-2019 22:48:58
+2019-09-02 22:48:58.101 +05:30 [INF] 
+Search result for catid 5 fetch complete on 02-09-2019 22:48:58
+2019-09-02 22:48:59.132 +05:30 [INF] 
+Search result for catid 3 fetch complete on 02-09-2019 22:48:59
+2019-09-02 22:51:18.017 +05:30 [INF] _mac.IpAddress192.168.1.100
+2019-09-02 22:51:19.339 +05:30 [INF] Mac id: D4258BF47531 ipAddr: 192.168.1.100 Gateway: 192.168.1.1Public Ip: 103.74.141.77
+2019-09-02 22:51:20.955 +05:30 [INF] LoginId: biplabhome@gmail.com EmailId: biplabhome@gmail.com MacId: D4258BF47531 AllowedMacId: D4258BF47531 Name: Arindam Dey MobileNo: 9830609366 DistId: 2 Address: 102, Gandi Para Road East, Subhasgram,Kolkara 700147 ProfilePicPath: \image\arindamdey.png Role Count: 0 LiscenceNo: admin MrShopNo: admin FpsCode: admin
+2019-09-02 22:51:21.279 +05:30 [INF] 
+masterdata fetch completed on 02-09-2019 22:51:21
+2019-09-02 22:51:21.546 +05:30 [INF] 
+Search result for catid 4 fetch complete on 02-09-2019 22:51:21
+2019-09-02 22:51:21.829 +05:30 [INF] 
+Search result for catid 1 fetch complete on 02-09-2019 22:51:21
+2019-09-02 22:51:22.080 +05:30 [INF] 
+Search result for catid 2 fetch complete on 02-09-2019 22:51:22
+2019-09-02 22:51:22.419 +05:30 [INF] 
+Search result for catid 3 fetch complete on 02-09-2019 22:51:22
+2019-09-02 22:51:22.818 +05:30 [INF] 
+Search result for catid 5 fetch complete on 02-09-2019 22:51:22
+2019-09-02 22:52:01.556 +05:30 [INF] Mac id: D4258BF47531 ipAddr: 192.168.1.100 Gateway: 192.168.1.1Public Ip: 103.74.141.77
+2019-09-02 22:52:01.813 +05:30 [INF] LoginId: biplabhome@gmail.com EmailId: biplabhome@gmail.com MacId: D4258BF47531 AllowedMacId: D4258BF47531 Name: Arindam Dey MobileNo: 9830609366 DistId: 2 Address: 102, Gandi Para Road East, Subhasgram,Kolkara 700147 ProfilePicPath: \image\arindamdey.png Role Count: 0 LiscenceNo: admin MrShopNo: admin FpsCode: admin
+2019-09-02 22:52:02.105 +05:30 [INF] 
+masterdata fetch completed on 02-09-2019 22:52:02
+2019-09-02 22:52:02.355 +05:30 [INF] 
+Search result for catid 1 fetch complete on 02-09-2019 22:52:02
+2019-09-02 22:52:02.362 +05:30 [INF] 
+Search result for catid 2 fetch complete on 02-09-2019 22:52:02
+2019-09-02 22:52:02.612 +05:30 [INF] 
+Search result for catid 4 fetch complete on 02-09-2019 22:52:02
+2019-09-02 22:52:02.620 +05:30 [INF] 
+Search result for catid 5 fetch complete on 02-09-2019 22:52:02
+2019-09-02 22:52:03.774 +05:30 [INF] 
+Search result for catid 3 fetch complete on 02-09-2019 22:52:03
+2019-09-02 22:52:47.362 +05:30 [INF] _mac.IpAddress192.168.1.100
+2019-09-02 22:52:48.502 +05:30 [INF] Mac id: D4258BF47531 ipAddr: 192.168.1.100 Gateway: 192.168.1.1Public Ip: 103.74.141.77
+2019-09-02 22:52:50.126 +05:30 [INF] LoginId: biplabhome@gmail.com EmailId: biplabhome@gmail.com MacId: D4258BF47531 AllowedMacId: D4258BF47531 Name: Arindam Dey MobileNo: 9830609366 DistId: 2 Address: 102, Gandi Para Road East, Subhasgram,Kolkara 700147 ProfilePicPath: \image\arindamdey.png Role Count: 0 LiscenceNo: admin MrShopNo: admin FpsCode: admin
+2019-09-02 22:52:50.446 +05:30 [INF] 
+masterdata fetch completed on 02-09-2019 22:52:50
+2019-09-02 22:52:50.726 +05:30 [INF] 
+Search result for catid 3 fetch complete on 02-09-2019 22:52:50
+2019-09-02 22:52:50.981 +05:30 [INF] 
+Search result for catid 1 fetch complete on 02-09-2019 22:52:50
+2019-09-02 22:52:51.236 +05:30 [INF] 
+Search result for catid 2 fetch complete on 02-09-2019 22:52:51
+2019-09-02 22:52:51.490 +05:30 [INF] 
+Search result for catid 4 fetch complete on 02-09-2019 22:52:51
+2019-09-02 22:52:51.985 +05:30 [INF] 
+Search result for catid 5 fetch complete on 02-09-2019 22:52:51
+2019-09-02 22:53:15.881 +05:30 [INF] Mac id: D4258BF47531 ipAddr: 192.168.1.100 Gateway: 192.168.1.1Public Ip: 103.74.141.77
+2019-09-02 22:53:16.153 +05:30 [INF] LoginId: biplabhome@gmail.com EmailId: biplabhome@gmail.com MacId: D4258BF47531 AllowedMacId: D4258BF47531 Name: Arindam Dey MobileNo: 9830609366 DistId: 2 Address: 102, Gandi Para Road East, Subhasgram,Kolkara 700147 ProfilePicPath: \image\arindamdey.png Role Count: 0 LiscenceNo: admin MrShopNo: admin FpsCode: admin
+2019-09-02 22:53:16.454 +05:30 [INF] 
+masterdata fetch completed on 02-09-2019 22:53:16
+2019-09-02 22:53:16.700 +05:30 [INF] 
+Search result for catid 1 fetch complete on 02-09-2019 22:53:16
+2019-09-02 22:53:16.710 +05:30 [INF] 
+Search result for catid 2 fetch complete on 02-09-2019 22:53:16
+2019-09-02 22:53:16.957 +05:30 [INF] 
+Search result for catid 4 fetch complete on 02-09-2019 22:53:16
+2019-09-02 22:53:16.967 +05:30 [INF] 
+Search result for catid 5 fetch complete on 02-09-2019 22:53:16
+2019-09-02 22:53:18.006 +05:30 [INF] 
+Search result for catid 3 fetch complete on 02-09-2019 22:53:18
+2019-09-02 22:53:43.946 +05:30 [INF] Mac id: D4258BF47531 ipAddr: 192.168.1.100 Gateway: 192.168.1.1Public Ip: 103.74.141.77
+2019-09-02 22:53:44.204 +05:30 [INF] LoginId: biplabhome@gmail.com EmailId: biplabhome@gmail.com MacId: D4258BF47531 AllowedMacId: D4258BF47531 Name: Arindam Dey MobileNo: 9830609366 DistId: 2 Address: 102, Gandi Para Road East, Subhasgram,Kolkara 700147 ProfilePicPath: \image\arindamdey.png Role Count: 0 LiscenceNo: admin MrShopNo: admin FpsCode: admin
+2019-09-02 22:53:44.496 +05:30 [INF] 
+masterdata fetch completed on 02-09-2019 22:53:44
+2019-09-02 22:53:44.743 +05:30 [INF] 
+Search result for catid 1 fetch complete on 02-09-2019 22:53:44
+2019-09-02 22:53:44.762 +05:30 [INF] 
+Search result for catid 2 fetch complete on 02-09-2019 22:53:44
+2019-09-02 22:53:44.768 +05:30 [INF] 
+Search result for catid 3 fetch complete on 02-09-2019 22:53:44
+2019-09-02 22:53:45.006 +05:30 [INF] 
+Search result for catid 5 fetch complete on 02-09-2019 22:53:45
+2019-09-02 22:53:46.019 +05:30 [INF] 
+Search result for catid 4 fetch complete on 02-09-2019 22:53:46
+2019-09-02 22:53:56.963 +05:30 [INF] Mac id: D4258BF47531 ipAddr: 192.168.1.100 Gateway: 192.168.1.1Public Ip: 103.74.141.77
+2019-09-02 22:53:57.216 +05:30 [INF] LoginId: biplabhome@gmail.com EmailId: biplabhome@gmail.com MacId: D4258BF47531 AllowedMacId: D4258BF47531 Name: Arindam Dey MobileNo: 9830609366 DistId: 2 Address: 102, Gandi Para Road East, Subhasgram,Kolkara 700147 ProfilePicPath: \image\arindamdey.png Role Count: 0 LiscenceNo: admin MrShopNo: admin FpsCode: admin
+2019-09-02 22:53:57.507 +05:30 [INF] 
+masterdata fetch completed on 02-09-2019 22:53:57
+2019-09-02 22:53:57.758 +05:30 [INF] 
+Search result for catid 1 fetch complete on 02-09-2019 22:53:57
+2019-09-02 22:53:57.952 +05:30 [INF] 
+Search result for catid 2 fetch complete on 02-09-2019 22:53:57
+2019-09-02 22:53:57.981 +05:30 [INF] 
+Search result for catid 4 fetch complete on 02-09-2019 22:53:57
+2019-09-02 22:53:57.981 +05:30 [INF] 
+Search result for catid 3 fetch complete on 02-09-2019 22:53:57
+2019-09-02 22:53:59.060 +05:30 [INF] 
+Search result for catid 5 fetch complete on 02-09-2019 22:53:59

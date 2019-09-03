@@ -42,8 +42,8 @@ namespace DataAccess
             try
             {
                 List<SqlParameter> sqlParams = new List<SqlParameter>();
-                sqlParams.Add(new SqlParameter { ParameterName = "@distId", SqlDbType = SqlDbType.VarChar, Value = User.DistId });
-                sqlParams.Add(new SqlParameter { ParameterName = "@mac", SqlDbType = SqlDbType.VarChar, Value = User.MacId });
+                sqlParams.Add(new SqlParameter { ParameterName = "@distId", SqlDbType = SqlDbType.VarChar, Value = RationCardUser.DistId });
+                sqlParams.Add(new SqlParameter { ParameterName = "@mac", SqlDbType = SqlDbType.VarChar, Value = RationCardUser.MacId });
                 sqlParams.Add(new SqlParameter { ParameterName = "@rationCardId", SqlDbType = SqlDbType.VarChar, Value = rationCardId });
                 sqlParams.Add(new SqlParameter { ParameterName = "@categoryId", SqlDbType = SqlDbType.VarChar, Value = categoryId });
                 sqlParams.Add(new SqlParameter { ParameterName = "@categoryDesc", SqlDbType = SqlDbType.VarChar, Value = categoryDesc });
@@ -120,7 +120,7 @@ namespace DataAccess
             {
                 //refresh catwise count
                 List<SqlParameter> sqlParams = new List<SqlParameter>();
-                sqlParams.Add(new SqlParameter { ParameterName = "@distId", SqlDbType = SqlDbType.VarChar, Value = User.DistId });
+                sqlParams.Add(new SqlParameter { ParameterName = "@distId", SqlDbType = SqlDbType.VarChar, Value = RationCardUser.DistId });
                 DataSet ds = ConnectionManager.Exec("Sp_Catwise_Count", sqlParams, out errType, out errMsg, out isSuccess, out errObj);
 
                 if ((ds != null) && (ds.Tables.Count > 0) && (ds.Tables[0].Rows.Count > 0))
@@ -149,7 +149,7 @@ namespace DataAccess
             try
             {
                 List<SqlParameter> sqlParams = new List<SqlParameter>();
-                sqlParams.Add(new SqlParameter { ParameterName = "@distId", SqlDbType = SqlDbType.VarChar, Value = User.DistId });
+                sqlParams.Add(new SqlParameter { ParameterName = "@distId", SqlDbType = SqlDbType.VarChar, Value = RationCardUser.DistId });
                 sqlParams.Add(new SqlParameter { ParameterName = "@rationCardId", SqlDbType = SqlDbType.VarChar, Value = rationCardId });
                 sqlParams.Add(new SqlParameter { ParameterName = "@customerId", SqlDbType = SqlDbType.VarChar, Value = customerId });
                 DataSet ds = ConnectionManager.Exec("Sp_RationCard_Delete", sqlParams, out errType, out errMsg, out isSuccess, out errObj);
@@ -180,7 +180,7 @@ namespace DataAccess
             try
             {
                 List<SqlParameter> sqlParams = new List<SqlParameter>();
-                sqlParams.Add(new SqlParameter { ParameterName = "@distId", SqlDbType = SqlDbType.VarChar, Value = User.DistId });
+                sqlParams.Add(new SqlParameter { ParameterName = "@distId", SqlDbType = SqlDbType.VarChar, Value = RationCardUser.DistId });
                 sqlParams.Add(new SqlParameter { ParameterName = "@checkName", SqlDbType = SqlDbType.VarChar, Value = checkBy });
                 sqlParams.Add(new SqlParameter { ParameterName = "@param", SqlDbType = SqlDbType.VarChar, Value = val });
                 DataSet ds = ConnectionManager.Exec("Sp_Unique_Check", sqlParams, out errType, out errMsg, out isSuccess, out errObj);

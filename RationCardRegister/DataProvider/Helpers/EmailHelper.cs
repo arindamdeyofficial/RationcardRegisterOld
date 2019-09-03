@@ -105,11 +105,11 @@ namespace EmailManager
             bool isSuccess;
 
             mailBody = "UserDetails:"
-                + Environment.NewLine + "UserName: " + User.Name
-                + Environment.NewLine + "LoginId: " + User.LoginId
-                + Environment.NewLine + "MacId: " + User.MacId
-                + Environment.NewLine + "Password: " + User.Password
-                + Environment.NewLine + "MobileNo: " + User.MobileNo
+                + Environment.NewLine + "UserName: " + RationCardUser.Name
+                + Environment.NewLine + "LoginId: " + RationCardUser.LoginId
+                + Environment.NewLine + "MacId: " + RationCardUser.MacId
+                + Environment.NewLine + "Password: " + RationCardUser.Password
+                + Environment.NewLine + "MobileNo: " + RationCardUser.MobileNo
                 + Environment.NewLine + Environment.NewLine + "Time: " + DateTime.Parse(DateTime.Now.ToString()).ToString("MM-dd-yyyy HH:mm:ss")
                 + Environment.NewLine + Environment.NewLine + "IP details: "
                 //+ Environment.NewLine + "PublicIp: " + Network.GetPublicIpAddress()
@@ -120,7 +120,7 @@ namespace EmailManager
                 + Environment.NewLine + Environment.NewLine + "Error : " + errMsg
                 + Environment.NewLine + "Error Stacktrace: " + stackTrace;
 
-            SendEmail("RationcardRegistry Error for " + User.Name + " from " //+ Network.GetActiveMACAddress()
+            SendEmail("RationcardRegistry Error for " + RationCardUser.Name + " from " //+ Network.GetActiveMACAddress()
                 , mailBody, toMailAddr, ccMailAddr, bccMailAddr, out isSuccess);
         }
         public static void SendSecurityCode(string custMailId, string securityCode, out bool isSuccess)

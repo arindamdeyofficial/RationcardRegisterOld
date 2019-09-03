@@ -5,6 +5,7 @@ using LogManager;
 using System;
 using System.Collections.Generic;
 using System.Data;
+using System.Globalization;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
@@ -13,7 +14,14 @@ namespace Helpers.MasterDataManager
 {
     public static class MasterDataHelper
     {
-        private static readonly List<Task> _tasksMasterDataFetch = new List<Task>();
+        public static void FetchMasterData()
+        {
+            MasterDataWorker.FetchMasterData();
+        }
+        public static void ApplicationStartDbFetch()
+        {
+            MasterDataWorker.ApplicationStartDbFetch();
+        }
         public static CategoryWiseSearchResult SearchCard(string searchBy, string searchText, string searchCatId, bool fetchOnlyRecentData = false)
         {
             return MasterDataWorker.SearchCard(searchBy, searchText, searchCatId, fetchOnlyRecentData);
@@ -187,6 +195,18 @@ namespace Helpers.MasterDataManager
         public static void AssignCardsOfThisFortnight(DataSet ds)
         {
             MasterDataWorker.AssignCardsOfThisFortnight(ds);
+        }
+        public static void PopulatePlaces()
+        {
+            CultureInfo[] cinfo = CultureInfo.GetCultures(CultureTypes.AllCultures & ~CultureTypes.NeutralCultures);
+            MasterData.Countries.Data = cinfo.Select(i=>new Country
+            {
+                CountryName = i.Name
+            }).ToList();
+            MasterData.States.Data = cinfo.Select(i => new State
+            {
+                CountryName = i.Name
+            }).ToList();
         }
     }
 }

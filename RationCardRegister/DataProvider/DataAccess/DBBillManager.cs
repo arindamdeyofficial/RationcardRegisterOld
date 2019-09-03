@@ -53,7 +53,7 @@ namespace DataAccess
             try
             {
                 List<SqlParameter> sqlParams = new List<SqlParameter>();
-                sqlParams.Add(new SqlParameter { ParameterName = "@distId", SqlDbType = SqlDbType.VarChar, Value = User.DistId });
+                sqlParams.Add(new SqlParameter { ParameterName = "@distId", SqlDbType = SqlDbType.VarChar, Value = RationCardUser.DistId });
                 sqlParams.Add(new SqlParameter { ParameterName = "@billData", SqlDbType = SqlDbType.Xml, Value = billXml });
 
                 DataSet ds = ConnectionManager.Exec("Sp_Save_Bill", sqlParams, out errType, out errMsg, out isSuccess, out errObj);
@@ -84,7 +84,7 @@ namespace DataAccess
             try
             {
                 List<SqlParameter> sqlParams = new List<SqlParameter>();
-                sqlParams.Add(new SqlParameter { ParameterName = "@distId", SqlDbType = SqlDbType.VarChar, Value = User.DistId });
+                sqlParams.Add(new SqlParameter { ParameterName = "@distId", SqlDbType = SqlDbType.VarChar, Value = RationCardUser.DistId });
                 sqlParams.Add(new SqlParameter { ParameterName = "@action", SqlDbType = SqlDbType.VarChar, Value = "VIEW" });
 
                 DataSet ds = ConnectionManager.Exec("Sp_Fetch_Bill_Counter", sqlParams, out errType, out errMsg, out isSuccess, out errObj);

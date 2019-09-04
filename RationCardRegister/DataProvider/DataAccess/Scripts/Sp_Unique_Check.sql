@@ -1,11 +1,11 @@
 IF EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[Sp_Unique_Check]') AND type in (N'P', N'PC'))
 	DROP PROCEDURE [dbo].[Sp_Unique_Check]
 GO 
---EXEC Sp_Unique_Check 1,'RATIONCARD','PHH-0053000476'
+--EXEC Sp_Unique_Check 2,'RATIONCARD','RKSY-I-1204156044'
 --EXEC Sp_Unique_Check 1,'RATIONCARD',''
 --EXEC Sp_Unique_Check 1,'MOBILENO','7278481425'
 --EXEC Sp_Unique_Check 1,'MOBILENO',''
---EXEC Sp_Unique_Check 1,'ADHARCARD','CKW4056677'
+--EXEC Sp_Unique_Check 2,'ADHARCARD','325406410942'
 --EXEC Sp_Unique_Check ,'ADHARCARD',''
 CREATE PROCEDURE [dbo].[Sp_Unique_Check]
 	@distId VARCHAR(2),

@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using BusinessObject;
 using DataAccess;
 using DataAccessSql;
+using Helper;
 using Helpers.MasterDataManager;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -21,7 +22,7 @@ namespace RationCardRegisterWeb.Controllers
         public HomeController(IConfiguration config)
         {
             _configuration = config;
-            ConnectionManager.SetConnectionString(_configuration.GetConnectionString("AzureConnectionString"));
+            ConnectionManager.SetConnectionString(SecurityEncryptHelper.DeEncrypt(_configuration.GetConnectionString("AzureConnectionString"), "nakshal"));
         }
         public IActionResult Index()
         {
